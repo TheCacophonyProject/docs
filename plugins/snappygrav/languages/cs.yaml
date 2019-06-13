@@ -1,0 +1,39 @@
+# Česky
+PLUGIN_SNAPPYGRAV:
+  GET_PDF: Stáhnout stránku jako PDF
+  GET_FULL_PDF: Stáhnout 
+  USE_BUILT_IN_CSS: Použít vestavěné CSS
+  WKHTMLTOPDF_PATH: Cesta k wkhtmltopdf
+  WKHTMLTOPDF_PATH_HELP: Cesta k binárnímu souboru wkhtmltopdf
+  SLUG_BLOG: Složka blogu
+  SLUG_BLOG_HELP: Název složky bez lomítka (před či za) pro stránky blogu
+  PREFACE: Úvod
+  PREFACE_HELP: Vytisknout stránku s názvem, autorem a datem vzniku.
+  MONOCHROME_PRINTOUT: Vytisknout monochromaticky
+  MONOCHROME_PRINTOUT_HELP: PDF bude vytištěno v odstínech šedé
+  BOTTOM_MARGIN: Dolní okraj
+  BOTTOM_MARGIN_HELP: Nastavte dolní okraj stránky (výchozí je 10 mm)
+  LEFT_MARGIN: Levý okraj
+  LEFT_MARGIN_HELP: Nastavte levý okraj stránky (výchozí je 10 mm)
+  RIGHT_MARGIN: Pravý okraj
+  RIGHT_MARGIN_HELP: Nastavte pravý okraj stránky (výchozí je 10 mm)
+  TOP_MARGIN: Horní okraj
+  TOP_MARGIN_HELP: Nastavte horní okraj stránky (výchozí je 10 mm)
+  PAGE_ORIENTATION: Orientace stránky
+  PAGE_ORIENTATION_HELP: Nastavte orientaci stránky, Na šířku or Na výšku
+  LANDSCAPE: Na šířku
+  PORTRAIT: Na výšku
+  PAGE_SIZE: Velikost papíru
+  PAGE_SIZE_HELP: Nastavte velikost papíru na: A4, Letter atd.
+  EXECUTIVE: Executive
+  FOLIO: Folio
+  LEDGER: Ledger
+  LEGAL: Legal
+  LETTER: Letter
+  TABLOID: Tabloid
+  DOCUMENT_TITLE: Název dokumentu
+  DOCUMENT_TITLE_HELP: Vloží vlastnost Title do PDF dokumentu
+  ZOOM_FACTOR: Míra přiblížení
+  ZOOM_FACTOR_HELP: Použít tuto míru přiblížení (výchozí je 1)
+
+  EXPORT_BUTTON: Vývozní

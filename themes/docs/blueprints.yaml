@@ -1,0 +1,8 @@
+name: Cacophony Docs
+version: 1.0.0
+description: A theme for Cacophony Project documentation
+icon: database
+author:
+ name: Cacophony Project
+ email: coredev@cacophony.org.nz
+ url: https://cacophony.org.nz

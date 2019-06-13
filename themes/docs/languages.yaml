@@ -1,0 +1,12 @@
+en:
+    FOOTER_TEXT: <p>Theme based on <a href="https://github.com/Perlkonig/grav-theme-knowledge-base">knowledge-base</a> by <a href="http://perlkonig.com">Perlk&ouml;nig</a>.</p>
+    CATEGORIES: Categories
+    POPULAR_ARTICLES: Popular
+    LATEST_ARTICLES: Latest
+    AUTHOR: "Author:"
+    ALL_AUTHOR_POSTS: All posts by this author
+    ERROR: Error!
+    ARTICLE_CATEGORIES: Categories
+    RELATED_ARTICLES: Related Articles
+    COMMENTS: Comments
+    CATEGORY: "Category:"

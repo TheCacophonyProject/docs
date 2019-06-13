@@ -1,0 +1,90 @@
+
+.jconfirm-content-pane {
+    /*-webkit-user-select: none;*/
+}
+    
+label {
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 100;
+    display: inline;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+input:disabled+label{
+    color: #ccc;
+}
+
+.export {
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border-radius: 4px;
+    min-height: 1em;
+    outline: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+    background-image: none;
+
+    text-shadow: none;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+hr {
+    margin: 0rem 0;
+    border-bottom: 1px solid #F0F2F4;
+}
+
+input[type="text"] {
+
+    border-radius: .1875rem;
+    margin-bottom: 0rem;
+    padding: 0rem 0rem;
+    width: 100%;
+}
+
+.disabled {
+    pointer-events:none;
+    opacity:0.6;
+}
+
+input[type="text"] .disabled {
+    pointer-events:none;
+    opacity:0.6;
+}
+*/
