@@ -1,5 +1,6 @@
 ---
 title: 'Thermal Camera User Guide'
+published: false
 ---
 
 ## Confirming Camera Alignment
