@@ -72,7 +72,7 @@ Once Sidekick is installed, start it up. The first it is run you will be asked t
 ![](image6.png?cropResize=300x400)
 ![](image3.png?cropResize=300x400)
 
-A login screen will appear next. Enter your Cacophony Project username and password here, or if you don't have an account yet use the Register button to create yourself an account. If you're unsure what to do here, email [*support@cacophony.org.nz*](mailto:support@cacophony.org.nz).
+A login screen will appear next. Enter your Cacophony Project username and password here, or if you don't have an account yet use the Register button to create yourself an account. If you're unsure what to do here, email [support@cacophony.org.nz](mailto:support@cacophony.org.nz).
 
 ![](image10.png?cropResize=400x400)
 
