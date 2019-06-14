@@ -69,8 +69,8 @@ Sidekick is available on the Google Play Store. To install it open the Play Stor
 
 Once Sidekick is installed, start it up. The first it is run you will be asked to give Sidekick various permissions. Click "Allow" for each permission so that Sidekick can operate correctly.
 
-![](image6.png?cropResize=200x400)
-![](image3.png?cropResize=200x400)
+![](image6.png?cropResize=300x400)
+![](image3.png?cropResize=300x400)
 
 A login screen will appear next. Enter your Cacophony Project username and password here, or if you don't have an account yet use the Register button to create yourself an account. If you're unsure what to do here, email [*support@cacophony.org.nz*](mailto:support@cacophony.org.nz).
 
