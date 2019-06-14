@@ -12,9 +12,7 @@ taxonomy:
 The "Cacophony Sidekick" app can be used on an Android phone or tablet to confirm the camera is functioning and correctly aligned. If you don't already have an Android device with Sidekick configured, please see [Appendix 1](#appendix) for installation instructions. To confirm camera alignment:
 
 -   Ensure the hotspot is active on your Android device (see [Appendix 1](#appendix)).
-
 -   Ensure the camera is powered on. If the camera is configured to only turn on at night it will turn itself off 20 minutes after being turned on during the day. If the camera might have turned itself off, disconnect and reconnect power to the camera,
-
 -   Run the Cacophony Sidekick app.
 -   Wait a few seconds for the camera's name to appear in Sidekick. Click the Refresh button if the camera has not been detected within a minute.
     > ![](image5.png?cropResize=400x400)
@@ -71,8 +69,8 @@ Sidekick is available on the Google Play Store. To install it open the Play Stor
 
 Once Sidekick is installed, start it up. The first it is run you will be asked to give Sidekick various permissions. Click "Allow" for each permission so that Sidekick can operate correctly.
 
-![](image6.png?cropResize=400x400)
-![](image3.png?cropResize=400x400)
+![](image6.png?cropResize=200x400)
+![](image3.png?cropResize=200x400)
 
 A login screen will appear next. Enter your Cacophony Project username and password here, or if you don't have an account yet use the Register button to create yourself an account. If you're unsure what to do here, email [*support@cacophony.org.nz*](mailto:support@cacophony.org.nz).
 
