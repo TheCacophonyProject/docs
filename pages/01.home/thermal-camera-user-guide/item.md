@@ -13,30 +13,18 @@ The "Cacophony Sidekick" app can be used on an Android phone or tablet to confir
 -   Ensure the camera is powered on. If the camera is configured to only turn on at night it will turn itself off 20 minutes after being turned on during the day. If the camera might have turned itself off, disconnect and reconnect power to the camera,
 
 -   Run the Cacophony Sidekick app.
-
--   Wait a few seconds for the camera's name to appear in Sidekick. Click the Refresh button if the camera has not been detected within a minute.\
-    > ![](image5.png)
-
+-   Wait a few seconds for the camera's name to appear in Sidekick. Click the Refresh button if the camera has not been detected within a minute.
+    > ![](image5.png?cropResize=400x400)
 -   When the camera name appears, tap on the name.
-
 -   The phone's web browser app will open and show the camera's management screen. Depending on the installed browser you may have to click an "Open Now" button in order to see the management screen.
-
--   Click on the menu button at the top right.![](image9.png)
-
+-   Click on the menu button at the top right.
+    > ![](image9.png?cropResize=400x400)
 -   Click "Camera" on the menu that appears:
-
-> ![](image2.png)
-
--   A live view from thermal camera should appear:\
-    > ![](image7.png)
-
-<!-- -->
-
+    > ![](image2.png?cropResize=400x400)
+-   A live view from thermal camera should appear:
+    > ![](image7.png?cropResize=400x400)
 -   Adjust the camera's position as required using the live view as reference.
-
 -   Use the Android back button (left arrow icon at the bottom of the screen) to return to Sidekick.
-
-# \
 
 # Collecting Recordings
 
