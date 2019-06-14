@@ -38,7 +38,7 @@ These instructions assume that Sidekick has already been installed and configure
 To collect recordings from one or more Cacophony Project thermal cameras:
 
 -   Walk up to the camera.
--   Ensure the hotspot is active on your Android device (see [Appendix 1](#appendix).
+-   Ensure the hotspot is active on your Android device (see [Appendix 1](#appendix)).
 -   If it's day time, it's likely that the camera will be asleep. Disconnect the power to the camera and reconnect it so that it wakes up - newer cameras will have a reset button which can be used instead. If you are also planning on changing battery packs, this is a good time to do so.
 -   Run the Cacophony Sidekick app. It will start searching for nearby cameras.
 -   The camera's name should appear within a minute (or less). The number of recordings available on the device will be indicated.
