@@ -9,8 +9,8 @@ taxonomy:
 
 For most of the Cacophony Project's software, releases are created automatically by [Travis CI](https://travis-ci.com). In order to create a release:
 
-- Point your web browser at the Releases tab of the relevant repository on Github
-- Click Draft new Release
+- Point your web browser at the Releases tab of the relevant repository on Github.
+- Click Draft new Release.
 - Enter a new version number.
   * remember that we use [Semantic Versioning](https://semver.org/)
   * Start the tag with a "v", for example `v1.2.3`.
