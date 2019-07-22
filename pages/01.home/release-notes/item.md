@@ -18,6 +18,10 @@ This article documents the major changes for the Cacophony Project's software up
 
 - New "About" screen which shows installed package versions
 
+### thermal-recorder
+
+- Extend application watchdog period to allow for longer camera initialisation times
+
 ## Week of 15 July 2019
 
 ### audiobait
