@@ -8,6 +8,16 @@ taxonomy:
 
 This article documents the major changes for the Cacophony Project's software updates each week. The latest updates are at the top of the article.
 
+## Week of 22 July 2019
+
+### cacophony-api
+
+- Archive legacy recording tags when reprocessing recordings for track based tagging
+
+### management-interface
+
+- New "About" screen which shows installed package versions
+
 ## Week of 15 July 2019
 
 ### audiobait
