@@ -14,6 +14,10 @@ This article documents the major changes for the Cacophony Project's software up
 
 - Simplified and cleaned up throttling of recordings to make this feature easier to understand and configure.
 
+### cacophony-api
+
+- Require that group names are unique
+
 ## Week of 22 July 2019
 
 ### cacophony-api
