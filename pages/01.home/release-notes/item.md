@@ -8,6 +8,12 @@ taxonomy:
 
 This article documents the major changes for the Cacophony Project's software updates each week. The latest updates are at the top of the article.
 
+## Week of 29 July 2019
+
+### thermal-recorder
+
+- Simplified and cleaned up throttling of recordings to make this feature easier to understand and configure.
+
 ## Week of 22 July 2019
 
 ### cacophony-api
