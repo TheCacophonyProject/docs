@@ -13,6 +13,7 @@ This article documents the major changes for the Cacophony Project's software up
 ### thermal-recorder
 
 - Simplified and cleaned up throttling of recordings to make this feature easier to understand and configure.
+- Throttling can now be disabled on a per-device basis.
 
 ### cacophony-api
 
