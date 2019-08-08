@@ -8,6 +8,13 @@ taxonomy:
 
 This article documents the major changes for the Cacophony Project's software updates each week. The latest updates are at the top of the article.
 
+## Week of 5 August 2019
+
+### browse portal
+
+- Work around flickering Confirm Tag popover
+- Address security vulnerability in dependency
+
 ## Week of 29 July 2019
 
 ### thermal-recorder
