@@ -10,10 +10,14 @@ This article documents the major changes for the Cacophony Project's software up
 
 ## Week of 5 August 2019
 
-### browse portal
+### Browse Portal
 
 - Work around flickering Confirm Tag popover
 - Address security vulnerability in dependency
+
+### Audio Bait UI
+
+- Fixed doubled up device and schedule entries
 
 ## Week of 29 July 2019
 
