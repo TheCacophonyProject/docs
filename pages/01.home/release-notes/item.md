@@ -32,8 +32,6 @@ following week.
 
 #### API Server
 
-### Production
-
 - Added API for renaming devices
 - Added tracking of device identity history
 
