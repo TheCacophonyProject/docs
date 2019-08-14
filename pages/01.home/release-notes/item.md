@@ -10,6 +10,25 @@ This article documents the major changes for the Cacophony Project's software up
 
 ## Week of 5 August 2019
 
+### Testing
+
+#### Browse Portal 
+
+- Significant reworking of recordings query page
+   - Search criteria now on the left hand side
+   - Cleaner search results display
+   - Mobile friendly layout
+   - "Timeline" to highlight the date and time
+- Deleting recordings now triggers navigation to the next recording
+- Fixed a variety of issues related to tooltip positioning
+- Steamlined layout of recording view
+
+#### API Server
+
+- Added API for renaming devices
+- Added tracking of device identity history
+
+
 ### Browse Portal
 
 - Work around flickering Confirm Tag popover
