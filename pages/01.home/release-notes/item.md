@@ -6,15 +6,20 @@ taxonomy:
         - 'Project Updates'
 ---
 
-This article documents the major changes for the Cacophony Project's software updates each week. The latest updates are at the top of the article.
+This article documents the major changes for the Cacophony Project's
+software updates each week. The latest updates are at the top of the
+article.
 
-Releases to our testing servers and devices are listed under the "Testing" header while testing to production are listed under "Production". Changes being tested generally end up in production the following week.
+Releases to our testing servers and devices are listed under the
+"Testing" header while testing to production are listed under
+"Production". Changes being tested generally end up in production the
+following week.
 
-## Week of 12 August 2019
+## Week of 12 August
 
 ### Testing
 
-#### Browse Portal 
+#### Browse Portal
 
 - Significant reworking of recordings query page
    - Search criteria now on the left hand side
@@ -27,90 +32,107 @@ Releases to our testing servers and devices are listed under the "Testing" heade
 
 #### API Server
 
+### Production
+
 - Added API for renaming devices
 - Added tracking of device identity history
 
-## Week of 5 August 2019
+## Week of 5 August
 
-### Browse Portal
+### Production
+
+#### Browse Portal
 
 - Work around flickering Confirm Tag popover
 - Address security vulnerability in dependency
 
-### Audio Bait UI
+#### Audio Bait UI
 
 - Fixed doubled up device and schedule entries
 
-## Week of 29 July 2019
+## Week of 29 July
 
-### thermal-recorder
+### Production
+
+#### thermal-recorder
 
 - Simplified and cleaned up throttling of recordings to make this feature easier to understand and configure.
 - Throttling can now be disabled on a per-device basis.
 
-### cacophony-api
+#### cacophony-api
 
 - Require that group names are unique
 
-## Week of 22 July 2019
+## Week of 22 July
 
-### cacophony-api
+### Production
+
+#### cacophony-api
 
 - Archive legacy recording tags when reprocessing recordings for track based tagging
 
-### management-interface
+#### management-interface
 
 - New "About" screen which shows installed package versions
 
-### thermal-recorder
+#### thermal-recorder
 
 - Extend application watchdog period to allow for longer camera initialisation times
 
-## Week of 15 July 2019
+## Week of 15 July
 
-### audiobait
+### Production
+
+#### audiobait
 
 - Fixed API URL bug when requesting new schedule
 
-### browse portal (cacophony-browse)
+#### browse portal (cacophony-browse)
 
 - Updated external dependencies to address security vulnerabilities
 - Fixed mis-alignment when drawing track outlines over videos
 
-### cacophony-api
+#### cacophony-api
 
 - Automated daily pruning of recording data for deleted recordings
 - Addressed security vulnerabilities in upstream dependencies
 - Allow larger HTTP request bodies to support large POSTs containing thermal video track data
 
-### cacophony-processing
+#### cacophony-processing
 
 - Upload processed recordings with a type based object key (to match changes in cacophony-api)
 
-### management-interface
+#### management-interface
 
 - Added new page for viewing and setting the hardware clock
 - Clean up the layout of the WiFi configuraiton screen
 - Added new `/device-info` API to allow Sidekick to retrieve identifiers for device
 
-## Week of 8 July 2019
+## Week of 8 July
 
-### attiny-controller
+### Production
+
+#### attiny-controller
 
 - added support for reading battery voltage (when hardware supports it)
 - added support for indicating WiFi connectivity via status LED
 
-### modemd
+#### modemd
 
-- This is a new service which runs on the thermal camera which will save power by turning on the 3G modem on demand. The 3G modem can be a major source of power consumption so by only turning it on occasionally when it's needed, battery life can be extended.
-- Other services have been updated to interact with modemd (using D-Bus) when they require internet connectivity (thermal-uploader, event-reporter, audiobait)
+- This is a new service which runs on the thermal camera which will
+  save power by turning on the 3G modem on demand. The 3G modem can be
+  a major source of power consumption so by only turning it on
+  occasionally when it's needed, battery life can be extended.
+- Other services have been updated to interact with modemd (using
+  D-Bus) when they require internet connectivity (thermal-uploader,
+  event-reporter, audiobait)
 
-### thermal-recorder
+#### thermal-recorder
 
 - Added new motion detection debug logging feature
 - Fixed logging in motion detector
 
-### device identity API changes
+#### device identity API changes
 
 - Initial changes to update the API server and the project's various API clients to base API interaction around an integer id instead of the device friendly name.
 - This will end users to easily rename devices themselves, as well as streamlining device production and monitoring.
