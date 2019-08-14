@@ -8,7 +8,9 @@ taxonomy:
 
 This article documents the major changes for the Cacophony Project's software updates each week. The latest updates are at the top of the article.
 
-## Week of 5 August 2019
+Releases to our testing servers and devices are listed under the "Testing" header while testing to production are listed under "Production". Changes being tested generally end up in production the following week.
+
+## Week of 12 August 2019
 
 ### Testing
 
@@ -28,6 +30,7 @@ This article documents the major changes for the Cacophony Project's software up
 - Added API for renaming devices
 - Added tracking of device identity history
 
+## Week of 5 August 2019
 
 ### Browse Portal
 
