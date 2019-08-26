@@ -15,6 +15,18 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 26 August
+
+### Production
+
+#### API Server
+
+- Added API for renaming devices
+- Added tracking of device identity history
+- Backend support for CSV export
+- Allow `reprocess` API to work for audio recordings as well as thermal video
+- Authentication refactoring
+
 ## Week of 12 August
 
 ### Testing
