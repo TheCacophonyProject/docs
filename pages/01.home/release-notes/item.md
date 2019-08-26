@@ -27,6 +27,37 @@ following week.
 - Allow `reprocess` API to work for audio recordings as well as thermal video
 - Authentication refactoring
 
+#### Thermal cameras
+
+- Updates throughout onboard services to support new identity changes
+
+### Testing
+
+#### Browse Portal
+
+- Show recording buttons on small screens too
+- Restore recording comment functionality
+- Fix unnecessary page refreshes when tags are added
+- Fix playback restarts when tags are added
+
+## Week of 19 August
+
+### Testing
+
+#### Browse Portal
+
+- UI for CSV export
+- Cleaned up recordings page especially around tagging
+- Fixed up recording page layout
+
+#### API Server
+
+- Added API for renaming devices
+- Added tracking of device identity history
+- Backend support for CSV export
+- Allow `reprocess` API to work for audio recordings as well as thermal video
+- Authentication refactoring
+
 ## Week of 12 August
 
 ### Testing
