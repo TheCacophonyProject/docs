@@ -27,18 +27,41 @@ following week.
 - Allow `reprocess` API to work for audio recordings as well as thermal video
 - Authentication refactoring
 
-#### Thermal cameras
-
-- Updates throughout onboard services to support new identity changes
-
-### Testing
-
 #### Browse Portal
 
+- Significant reworking of recordings query page
+   - Search criteria now on the left hand side
+   - Cleaner search results display
+   - Mobile friendly layout
+   - "Timeline" to highlight the date and time
+- Deleting recordings now triggers navigation to the next recording
+- Fixed a variety of issues related to tooltip positioning
+- Steamlined layout of recording view
 - Show recording buttons on small screens too
 - Restore recording comment functionality
 - Fix unnecessary page refreshes when tags are added
 - Fix playback restarts when tags are added
+- CSV export
+- Cleaned up recordings page especially around tagging
+- Fixed up recording page layout
+
+### Testing
+
+#### Sidekick App
+
+- Improved detection of nearby cameras
+- More robust location determination
+
+#### Bird Monitor
+
+- New randomised sampling schedule to provide higher quality bird population data
+
+#### Thermal camera
+
+- Added ability to turn on and off based on sunset and sunset times.
+- Updates throughout onboard services to support new identity changes
+- More robust audio file download logic
+- New management interface "About" page - shows software versions and device ids
 
 ## Week of 19 August
 
@@ -46,7 +69,7 @@ following week.
 
 #### Browse Portal
 
-- UI for CSV export
+- CSV export
 - Cleaned up recordings page especially around tagging
 - Fixed up recording page layout
 
