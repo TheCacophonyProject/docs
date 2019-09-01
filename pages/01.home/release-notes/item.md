@@ -15,6 +15,17 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 2 September
+
+### Production
+
+#### Browse Portal
+
+- cleaned up layout of recording view, especially the tagging controls
+- search results can be displayed as table view in addition to card view
+- new video track scrubber control
+- avoid broken image icon where map tile will go
+
 ## Week of 26 August
 
 ### Production
@@ -46,6 +57,13 @@ following week.
 - Fixed up recording page layout
 
 ### Testing
+
+#### Browse Portal
+
+- cleaned up layout of recording view, especially the tagging controls
+- search results can be displayed as table view in addition to card view
+- new video track scrubber control
+- avoid broken image icon where map tile will go
 
 #### Sidekick App
 
