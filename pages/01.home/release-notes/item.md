@@ -40,6 +40,11 @@ following week.
 
 - Fix video tracks not displaying at a certain size (tablet-ish)
 
+#### Management Interface
+
+- Add device IDs to About page
+- Support new device rename API
+
 ## Week of 26 August
 
 ### Production
