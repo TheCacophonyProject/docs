@@ -36,6 +36,10 @@ following week.
 - Small CSV export enhancements
 - Address security vulnerability in eslint-utils
 
+#### Browse Portal
+
+- Fix video tracks not displaying at a certain size (tablet-ish)
+
 ## Week of 26 August
 
 ### Production
