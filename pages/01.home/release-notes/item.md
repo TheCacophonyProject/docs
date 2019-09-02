@@ -26,6 +26,16 @@ following week.
 - new video track scrubber control
 - avoid broken image icon where map tile will go
 
+### Testing
+
+#### API Server
+
+- Return file size when retrieving recordings and audio bait files
+- Enhancements for device rename/re-register
+- Include tag confidence in recording queries again
+- Small CSV export enhancements
+- Address security vulnerability in eslint-utils
+
 ## Week of 26 August
 
 ### Production
