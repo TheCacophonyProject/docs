@@ -25,6 +25,7 @@ following week.
 - search results can be displayed as table view in addition to card view
 - new video track scrubber control
 - avoid broken image icon where map tile will go
+- fix video tracks not displaying at a certain size (tablet-ish)
 
 ### Testing
 
@@ -35,10 +36,6 @@ following week.
 - Include tag confidence in recording queries again
 - Small CSV export enhancements
 - Address security vulnerability in eslint-utils
-
-#### Browse Portal
-
-- Fix video tracks not displaying at a certain size (tablet-ish)
 
 #### Management Interface
 
