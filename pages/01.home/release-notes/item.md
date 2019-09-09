@@ -51,6 +51,10 @@ following week.
 
 - Fix recording count returned by query API
 
+#### Browse Portal
+
+- Added more animal tags (wallaby etc)
+
 #### Management Interface
 
 - include Salt minion ID on About screen
