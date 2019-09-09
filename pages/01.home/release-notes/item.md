@@ -45,6 +45,16 @@ following week.
 
 - Extract latitude and longitude from CPTV files (where available)
 
+### Test
+
+#### API Server
+
+- Fix recording count returned by query API
+
+#### Management Interface
+
+- include Salt minion ID on About screen
+
 ## Week of 2 September
 
 ### Production
