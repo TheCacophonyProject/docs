@@ -19,6 +19,14 @@ following week.
 
 ### Production
 
+#### API Server
+
+- Return file size when retrieving recordings and audio bait files
+- Enhancements for device rename/re-register
+- Include tag confidence in recording queries again
+- Small CSV export enhancements
+- Address security vulnerability in eslint-utils
+
 #### Management Interface
 
 - Add device IDs to About page
@@ -33,6 +41,10 @@ following week.
 - Added ability to turn on and off based on sunset and sunrise times.
 - Final changes for new device registration scheme
 
+#### Upload Processing
+
+- Extract latitude and longitude from CPTV files (where available)
+
 ## Week of 2 September
 
 ### Production
@@ -45,6 +57,8 @@ following week.
 - avoid broken image icon where map tile will go
 - fix video tracks not displaying at a certain size (tablet-ish)
 
+### Testing
+
 #### API Server
 
 - Return file size when retrieving recordings and audio bait files
@@ -53,12 +67,14 @@ following week.
 - Small CSV export enhancements
 - Address security vulnerability in eslint-utils
 
-### Testing
-
 #### Management Interface
 
 - Add device IDs to About page
 - Support new device rename API
+
+#### Upload Processing
+
+- Extract latitude and longitude from CPTV files (where available)
 
 ## Week of 26 August
 
