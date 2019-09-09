@@ -15,6 +15,24 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 9 September
+
+### Production
+
+#### Management Interface
+
+- Add device IDs to About page
+- Support new device rename API
+
+#### thermal-recorder
+
+- Throttling of recordings is now slightly less aggressive
+
+#### Thermal Camera
+
+- Added ability to turn on and off based on sunset and sunrise times.
+- Final changes for new device registration scheme
+
 ## Week of 2 September
 
 ### Production
@@ -27,8 +45,6 @@ following week.
 - avoid broken image icon where map tile will go
 - fix video tracks not displaying at a certain size (tablet-ish)
 
-### Testing
-
 #### API Server
 
 - Return file size when retrieving recordings and audio bait files
@@ -36,6 +52,8 @@ following week.
 - Include tag confidence in recording queries again
 - Small CSV export enhancements
 - Address security vulnerability in eslint-utils
+
+### Testing
 
 #### Management Interface
 
@@ -92,7 +110,7 @@ following week.
 
 #### Thermal camera
 
-- Added ability to turn on and off based on sunset and sunset times.
+- Added ability to turn on and off based on sunset and sunrise times.
 - Updates throughout onboard services to support new identity changes
 - More robust audio file download logic
 - New management interface "About" page - shows software versions and device ids
@@ -152,7 +170,7 @@ following week.
 
 ### Production
 
-#### thermal-recorder
+#### Thermal Cameras
 
 - Simplified and cleaned up throttling of recordings to make this feature easier to understand and configure.
 - Throttling can now be disabled on a per-device basis.
