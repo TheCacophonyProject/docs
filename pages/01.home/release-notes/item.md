@@ -15,6 +15,24 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 16 September
+
+### Production
+
+#### API Server
+ 
+* Added device query endpoint and token access and TTL
+* Fixed sporadically failing device query tests
+* Restore the legacy /api/v1/recordings/:devicename POST endpoint (required for older Sidekick versions)
+
+#### Browse Portal
+
+- Fix for animal field on search page sometimes not being populated
+- Remember audio/video search preference
+- Fix for "query description sometimes shows NaN"
+- Fix for "Custom duration fields sometimes don't appear when they should"
+- Expand Advanced search criteria if a non-default advanced criteria is in use
+
 ## Week of 9 September
 
 ### Production
