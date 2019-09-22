@@ -15,6 +15,21 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 23 September
+
+### Testing
+
+### audiobait
+
+- check for new audio schedules more often so that new schedule updates are applied on the day that they're configured
+- validate downloaded audio files to avoid use of corrupted files
+- simplified download logic
+
+### Browse Portal
+
+- Fix for: Recording selection preference is not applied to initial query ([#242](https://github.com/TheCacophonyProject/cacophony-browse/issues/242))
+- Update mem dependency to address security vulnerabilty
+
 ## Week of 16 September
 
 ### Production
@@ -63,7 +78,7 @@ following week.
 
 - Extract latitude and longitude from CPTV files (where available)
 
-### Test
+### Testing
 
 #### API Server
 
