@@ -15,17 +15,37 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 2 October
+
+### Production
+
+#### Browse Portal
+
+- Fix for: Recording selection preference is not applied to initial query ([#242](https://github.com/TheCacophonyProject/cacophony-browse/issues/242))
+- Update mem dependency to address security vulnerabilty
+
+#### Audiobait
+
+- support offline operation
+- check for new audio schedules more often so that new schedule updates are applied on the day that they're configured
+- validate downloaded audio files to avoid use of corrupted files
+- simplified download logic
+
+#### Thermal camera 
+
+- Support continuous recording mode (for tuning motion detection)
+
 ## Week of 23 September
 
 ### Testing
 
-### audiobait
+#### audiobait
 
 - check for new audio schedules more often so that new schedule updates are applied on the day that they're configured
 - validate downloaded audio files to avoid use of corrupted files
 - simplified download logic
 
-### Browse Portal
+#### Browse Portal
 
 - Fix for: Recording selection preference is not applied to initial query ([#242](https://github.com/TheCacophonyProject/cacophony-browse/issues/242))
 - Update mem dependency to address security vulnerabilty
@@ -67,12 +87,10 @@ following week.
 
 #### thermal-recorder
 
-- Throttling of recordings is now slightly less aggressive
-
-#### Thermal Camera
-
 - Added ability to turn on and off based on sunset and sunrise times.
 - Final changes for new device registration scheme
+- Throttling of recordings is now slightly less aggressive
+
 
 #### Upload Processing
 
