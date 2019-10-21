@@ -15,6 +15,21 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+
+## Week of 14 October
+
+### Production
+
+#### Thermal camera 
+
+- Remove last still snapshot on startup to avoid confusion when first viewing camera output using management interface
+
+### Testing
+
+#### Thermal camera 
+
+- Configuration overhaul: the way configuration on the camera is stored has been changed to support more flexible and robust updates, both locally via the management interface and remotely.
+
 ## Week of 7 October
 
 ### Production
