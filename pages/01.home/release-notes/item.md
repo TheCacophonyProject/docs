@@ -15,6 +15,29 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 28 October
+
+### Production
+
+#### Thermal camera 
+
+- Addressed a variety of issues with the value the Real Time Clock (RTC) is handled to work around kernel driver bugs. This makes the clock much more reliable. 
+- When internet connectivity is available, the RTC is now synced as soon as internet time sync (NTP) is acheived to ensure the clock corrections are made as soon as possible.
+- Fixed audio event reporting when cameras is offline.
+
+### Testing
+
+#### Thermal camera 
+
+- Device ID is now stored included in CPTV files
+
+## Week of 21 October
+
+### Production
+
+#### Thermal camera 
+
+- Configuration overhaul: the way configuration on the camera is stored has been changed to support more flexible and robust updates, both locally via the management interface and remotely.
 
 ## Week of 14 October
 
