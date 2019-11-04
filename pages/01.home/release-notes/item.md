@@ -15,6 +15,40 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 4 November
+
+### Production
+
+#### Thermal camera 
+
+- Device ID is now stored included in CPTV files
+
+#### python-cptv library
+
+- Added device ID support
+- Updated package description on PyPI
+
+### Testing
+
+#### API Server
+
+- csv timezone is now set to New Zealand
+- added location to CSV export
+- also max query limit for recordings to 100,000
+
+#### Upload Processing
+
+- Automatic tags are now applied independently of other tracks
+
+#### Browse Portal
+
+- changed audio tags Done button to navigate to next recording
+- CSV export will retrieve up to 100,000 entries instead of the current page
+
+#### Thermal camera
+
+- Allow current real-time clock status to be directly interrogated
+
 ## Week of 28 October
 
 ### Production
