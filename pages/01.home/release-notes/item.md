@@ -32,9 +32,10 @@ following week.
 
 #### API Server
 
-- csv timezone is now set to New Zealand
+- CSV export timezone is now set to New Zealand
 - added location to CSV export
-- also max query limit for recordings to 100,000
+- fixed up time formatting in CSV export
+- max query limit for recordings is now 100,000 items
 
 #### Upload Processing
 
