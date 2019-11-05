@@ -19,7 +19,7 @@ following week.
 
 ### Production
 
-#### Thermal camera 
+#### Thermal Camera 
 
 - Device ID is now stored included in CPTV files
 
@@ -46,8 +46,10 @@ following week.
 - changed audio tags Done button to navigate to next recording
 - CSV export will retrieve up to 100,000 entries instead of the current page
 
-#### Thermal camera
+#### Thermal Camera
 
+- Fixed management interface speaker test that wasn't working for some cameras
+- Updated management interface clock page and fixed time zone handling bug
 - Allow current real-time clock status to be directly interrogated
 
 ## Week of 28 October
