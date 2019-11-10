@@ -31,6 +31,10 @@ following week.
 - changed audio tags Done button to navigate to next recording
 - CSV export will retrieve up to 100,000 entries instead of the current page
 
+#### Upload Processing
+
+- Automatic tags are now applied independently of other tracks
+
 ## Week of 4 November
 
 ### Production
@@ -53,14 +57,14 @@ following week.
 - fixed up time formatting in CSV export
 - max query limit for recordings is now 100,000 items
 
-#### Upload Processing
-
-- Automatic tags are now applied independently of other tracks
-
 #### Browse Portal
 
 - changed audio tags Done button to navigate to next recording
 - CSV export will retrieve up to 100,000 entries instead of the current page
+
+#### Upload Processing
+
+- Automatic tags are now applied independently of other tracks
 
 #### Thermal Camera
 
