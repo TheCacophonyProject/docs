@@ -19,6 +19,7 @@ use Grav\Framework\Route\Route;
 use Grav\Plugin\Form\Form;
 use Grav\Plugin\Form\Forms;
 use ReCaptcha\ReCaptcha;
+use ReCaptcha\RequestMethod\CurlPost;
 use RocketTheme\Toolbox\File\JsonFile;
 use RocketTheme\Toolbox\File\YamlFile;
 use RocketTheme\Toolbox\File\File;
@@ -43,6 +44,9 @@ class FormPlugin extends Plugin
 
     /** @var array */
     protected $flat_forms = [];
+
+    /** @var array */
+    protected $active_forms = [];
 
     /** @var array */
     protected $json_response = [];
@@ -396,6 +400,9 @@ class FormPlugin extends Plugin
                 $ip = Uri::ip();
 
                 $recaptcha = new ReCaptcha($secret);
+                if(extension_loaded('curl')){
+                    $recaptcha = new ReCaptcha($secret, new CurlPost());
+                }
 
                 // get captcha version
                 $captcha_version = $captcha_config['version'] ?? 2;
@@ -490,7 +497,9 @@ class FormPlugin extends Plugin
                 break;
             case 'reset':
                 if (Utils::isPositive($params)) {
+                    $message = $form->message;
                     $form->reset();
+                    $form->message = $message;
                 }
                 break;
             case 'display':
@@ -534,6 +543,7 @@ class FormPlugin extends Plugin
                 $postfix = $params['filepostfix'] ?? '';
                 $ext = !empty($params['extension']) ? '.' . trim($params['extension'], '.') : '.txt';
                 $filename = $params['filename'] ?? '';
+                $folder = !empty($params['folder']) ? $params['folder'] : $form->getName();
                 $operation = $params['operation'] ?? 'create';
 
                 if (!$filename) {
@@ -554,8 +564,8 @@ class FormPlugin extends Plugin
                 $filename = $twig->processString($filename, $vars);
 
                 $locator = $this->grav['locator'];
-                $path = $locator->findResource('user://data', true);
-                $dir = $path . DS . $form->getName();
+                $path = $locator->findResource('user-data://', true);
+                $dir = $path . DS . $folder;
                 $fullFileName = $dir. DS . $filename;
 
                 if (!empty($params['raw']) || !empty($params['template'])) {
@@ -747,7 +757,7 @@ class FormPlugin extends Plugin
             if (!empty($this->forms[$page_route])) {
                 $forms = $this->forms[$page_route];
                 $first_form = reset($forms) ?: null;
-                $form_name = $first_form['name'] ?? null;
+                return $first_form;
             } else {
                 //No form on this route. Try looking up in the current page first
                 /** @var Forms $forms */
@@ -866,7 +876,23 @@ class FormPlugin extends Plugin
      */
     protected function getFormByName($form_name)
     {
-        return $this->flat_forms[$form_name] ?? null;
+        $form = $this->active_forms[$form_name] ?? null;
+        if (!$form) {
+            $form = $this->flat_forms[$form_name] ?? null;
+
+            if (!$form) {
+                return null;
+            }
+
+            // Reset form to change the cached unique id and to fire onFormInitialized event.
+            $form->setUniqueId('');
+            $form->reset();
+
+            // Register form to the active forms to get the same instance back next time.
+            $this->active_forms[$form_name] = $form;
+        }
+
+        return $form;
     }
 
     /**

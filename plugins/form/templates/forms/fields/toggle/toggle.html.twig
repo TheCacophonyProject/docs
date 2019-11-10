@@ -7,7 +7,7 @@
 
 {% import _self as macro %}
 
-{% set value = (value is null ? field.default : value) %}
+{% set value = value ?? field.default %}
 {% set value = (value is same as(false) ? 0 : value) %}
 
 {% set has_hidden = false %}
@@ -55,6 +55,7 @@
             {% endif %}
           {% endif %}
           {% if field.validate.required in ['on', 'true', 1] %}required="required"{% endif %}
+          {% if field.tabindex %}tabindex="{{ field.tabindex }}" %}{% endif %}
       />
       <label for="{{ id }}">{{ (macro.spanToggle(translation, maxLen)|trim)|raw }}</label>
     {% endfor %}
