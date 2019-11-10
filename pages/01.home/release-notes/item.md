@@ -15,6 +15,22 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 11 November
+
+### Production
+
+#### API Server
+
+- CSV export timezone is now set to New Zealand
+- added location to CSV export
+- fixed up time formatting in CSV export
+- max query limit for recordings is now 100,000 items
+
+#### Browse Portal
+
+- changed audio tags Done button to navigate to next recording
+- CSV export will retrieve up to 100,000 entries instead of the current page
+
 ## Week of 4 November
 
 ### Production
