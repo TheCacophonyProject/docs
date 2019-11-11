@@ -35,6 +35,12 @@ following week.
 
 - Automatic tags are now applied independently of other tracks
 
+#### Thermal Camera
+
+- Fixed management interface speaker test that wasn't working for some cameras
+- Updated management interface clock page and fixed time zone handling bug
+- Allow current real-time clock status to be directly interrogated
+
 ## Week of 4 November
 
 ### Production
