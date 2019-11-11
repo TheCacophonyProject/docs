@@ -41,6 +41,21 @@ following week.
 - Updated management interface clock page and fixed time zone handling bug
 - Allow current real-time clock status to be directly interrogated
 
+### Testing
+
+#### API Server
+- Automatically remove duplicate recordings
+- added "replace tag" API endpoint 
+- device query endpoint allows query just by device name
+
+#### Browse Portal
+
+- Use new "replace tag" API to speed up quick tag updates
+
+#### Thermal Camera
+
+- log when events are generated (e.g. audio bait playback)
+
 ## Week of 4 November
 
 ### Production
