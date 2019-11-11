@@ -138,7 +138,7 @@ following week.
 #### Browse Portal
 
 - added delete button for audio recordings
-- made thermal video tag names inconsistent (#254)
+- made thermal video tag names consistent
 - code linting tweaks
 
 #### API Server
