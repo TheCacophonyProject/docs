@@ -54,7 +54,8 @@ following week.
 
 #### Thermal Camera
 
-- log when events are generated (e.g. audio bait playback)
+- Management interface now shows currently configured audio bait schedule and allows new schedule to be downloaded on demand
+- Log when events are generated (e.g. audio bait playback)
 
 ## Week of 4 November
 
