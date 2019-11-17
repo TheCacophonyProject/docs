@@ -15,6 +15,19 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 18 November
+
+### Production
+
+#### API Server
+- Automatically remove duplicate recordings
+- added "replace tag" API endpoint 
+- device query endpoint allows query just by device name
+
+#### Browse Portal
+
+- Use new "replace tag" API to speed up quick tag updates
+
 ## Week of 11 November
 
 ### Production
