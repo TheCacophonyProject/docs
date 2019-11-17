@@ -28,6 +28,11 @@ following week.
 
 - Use new "replace tag" API to speed up quick tag updates
 
+#### Thermal Camera
+
+- Management interface now shows currently configured audio bait schedule and allows new schedule to be downloaded on demand
+- Log when events are generated (e.g. audio bait playback)
+
 ## Week of 11 November
 
 ### Production
