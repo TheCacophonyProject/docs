@@ -37,6 +37,10 @@ following week.
 
 ### Testing
 
+#### Browse Portal
+
+- First version of new Bulk Tagging user interface
+
 #### Thermal Camera
 
 - Monitoring and logging of battery voltage
