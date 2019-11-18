@@ -20,9 +20,11 @@ following week.
 ### Production
 
 #### API Server
+
 - Automatically remove duplicate recordings
-- added "replace tag" API endpoint 
-- device query endpoint allows query just by device name
+- Added "replace tag" API endpoint 
+- Device query endpoint allows query just by device name
+- Added database indexes to improve performance for specific queries
 
 #### Browse Portal
 
