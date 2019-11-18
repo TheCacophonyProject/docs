@@ -35,6 +35,12 @@ following week.
 - Management interface now shows currently configured audio bait schedule and allows new schedule to be downloaded on demand
 - Log when events are generated (e.g. audio bait playback)
 
+### Testing
+
+#### Thermal Camera
+
+- Monitoring and logging of battery voltage
+
 ## Week of 11 November
 
 ### Production
