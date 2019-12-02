@@ -15,6 +15,16 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 2 December
+
+### Production
+
+#### Predator Classifier
+
+- Initial support for running classifier on the thermal camera
+- Many improvements and fixes to tracking and classification
+- Removed support for training with recording level tags (track based tags only)
+
 ## Week of 25 November
 
 ### Production
@@ -27,6 +37,17 @@ following week.
 
 - Monitoring and logging of battery voltage
 
+### Testing
+
+#### Predator Classifier
+
+- Initial support for running classifier on the thermal camera
+- Many improvements and fixes to tracking and classification
+- Removed support for training with recording level tags (track based tags only)
+
+#### Thermal Camera
+
+- Intelligent internet connectivity management to reduce power consumption
 
 ## Week of 18 November
 
