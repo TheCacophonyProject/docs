@@ -25,6 +25,19 @@ following week.
 - Many improvements and fixes to tracking and classification
 - Removed support for training with recording level tags (track based tags only)
 
+### Testing
+
+#### API Server
+
+- Added support for audio analysis processing step for the Cacophony Index (more below)
+- Updated recording queries to provide more consistent results between different queries
+
+#### Upload Processing
+
+- Added support for first version of the Cacophony Index (bird population estimation)
+- Restructured so that workers are managed internally instead of using systemd simplifying management and deployment
+- Many clean ups
+
 ## Week of 25 November
 
 ### Production
