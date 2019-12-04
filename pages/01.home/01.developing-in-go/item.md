@@ -1,5 +1,8 @@
 ---
 title: 'Developing in GO'
+published: true
+date: '05-12-2019 10:44'
+publish_date: '05-12-2019 10:43'
 taxonomy:
     category:
         - Developer
@@ -17,16 +20,16 @@ Before you begin you define your $GOPATH in your environmental variables.   This
 ```
 
 ## New Project
-To clone a new project using git you must do it using go
+To clone a new project you must do it using go
 ```console
-> go get github github.com/TheCacophonyProject/<projectname>    
+> go get github.com/TheCacophonyProject/<projectname>    
 ```
     
 To build the project first make sure you get all the go dependences and then run the build command
 ```console
 > go get ./...
 > go build
-> ```
+```
 If you want to build for the thermal-camera RaspberryPi hardware then run
 ```console
 > GOOS=linux GOARCH=arm GOARM=7 go build 
@@ -34,7 +37,7 @@ If you want to build for the thermal-camera RaspberryPi hardware then run
 ## Working with your own repository fork
 When developing for Cacophony, you should be commiting all new code to your own development fork.  However, you can't directly check out your new fork as the code won't be in the correct place working with your other GO projects.  
     
-To develop on your fork the best solution is to add a new remote to you git project.   For example you can add your fork
+To develop on your fork the best solution is to add a new remote to your git project.   For example you can add your fork
 ```console
 >  git remote add myfork git@github.com:<username>/<project>.git
 ```
