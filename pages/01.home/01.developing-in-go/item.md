@@ -25,14 +25,14 @@ To clone a new project you must do it using go
 > go get github.com/TheCacophonyProject/<projectname>    
 ```
     
-To build the project first make sure you get all the go dependences and then run the build command
+To build the project (to run on your development environment) first make sure you get all the go dependences and then run the build command
 ```console
 > go get ./...
-> go build
+> go build ./...
 ```
 If you want to build for the thermal-camera RaspberryPi hardware then run
 ```console
-> GOOS=linux GOARCH=arm GOARM=7 go build 
+> GOOS=linux GOARCH=arm GOARM=7 go build ./...
 ```
 ## Working with your own repository fork
 When developing for Cacophony, you should be commiting all new code to your own development fork.  However, you can't directly check out your new fork as the code won't be in the correct place working with your other GO projects.  
