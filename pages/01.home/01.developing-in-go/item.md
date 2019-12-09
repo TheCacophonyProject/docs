@@ -1,5 +1,5 @@
 ---
-title: 'Developing in GO'
+title: 'Developing in Go'
 published: true
 date: '05-12-2019 10:44'
 publish_date: '05-12-2019 10:43'

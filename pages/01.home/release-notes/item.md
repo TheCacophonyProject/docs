@@ -15,6 +15,27 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 9 December
+
+### Production
+
+#### API Server
+
+- Added support for audio analysis processing step for the Cacophony Index (more below)
+- Updated recording queries to provide more consistent results between different queries
+
+#### Upload Processing
+
+- Added support for first version of the Cacophony Index (bird population estimation)
+- Restructured so that workers are managed internally instead of using systemd simplifying management and deployment
+- Many clean ups
+
+#### Thermal Camera
+
+- Fixed event database persistence issue (used to record audio lure events)
+
+### Testing
+
 ## Week of 2 December
 
 ### Production
