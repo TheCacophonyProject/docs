@@ -36,6 +36,26 @@ following week.
 
 ### Testing
 
+#### API Server
+
+- Added support for tracking end user agreements
+- Address security vulnerabilities
+- Add additional Access-Control-Allow-Headers that are standard
+- Small tidy up of API documentation
+- Clean up handling of JSON API parameters
+- Fix linting issues
+- Removed unnecessary information being returned by the audio bait schedule API 
+
+#### Browse Portal
+
+- Added new Visits feature which groups tracks across recordings that are likely to be related
+- Video scrub control is now aligned with the video playback scroll control
+- Create API abstraction to simplify code accessing the Cacophony API
+- Cleaned up how data is sent to the user PATCH API
+- Add typescript to eslint config and run
+- Improve docstrings to better explain inputs and behaviour
+
+
 ## Week of 2 December
 
 ### Production
