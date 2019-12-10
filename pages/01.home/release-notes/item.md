@@ -55,6 +55,13 @@ following week.
 - Add typescript to eslint config and run
 - Improve docstrings to better explain inputs and behaviour
 
+#### Thermal Camera
+
+- When being requested to stay on during updates or maintenance,
+  always stay on for the maximum requested time
+- Added API for querying the software and API version
+- Added rate limiting for camera snapshots
+- Automatically retry previously failed video uploads if they might succeed
 
 ## Week of 2 December
 
