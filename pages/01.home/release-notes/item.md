@@ -38,6 +38,10 @@ following week.
 - Add typescript to eslint config and run
 - Improve docstrings to better explain inputs and behaviour
 
+#### Upload Processing
+
+- Output from failed processing helpers is now logged to support troubleshooting
+
 ## Week of 9 December
 
 ### Production
