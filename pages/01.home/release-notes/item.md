@@ -28,6 +28,7 @@ following week.
 - Clean up handling of JSON API parameters
 - Fix linting issues
 - Removed unnecessary information being returned by the audio bait schedule API 
+- Set longer request timeout for report endpoint
 
 #### Browse Portal
 
@@ -37,6 +38,8 @@ following week.
 - Cleaned up how data is sent to the user PATCH API
 - Add typescript to eslint config and run
 - Improve docstrings to better explain inputs and behaviour
+- Tweak scrubber offsetting and fix css offset issue
+- Remove tooltips on for recording buttons
 
 #### Upload Processing
 
