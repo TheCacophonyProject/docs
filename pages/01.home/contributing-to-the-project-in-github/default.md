@@ -1,5 +1,10 @@
 ---
 title: 'Contributing to the project in GitHub'
+published: true
+publish_date: '07-01-2020 18:09'
+taxonomy:
+    category:
+        - Developer
 ---
 
 All contributions to code for The Cacophony Project should be committed using the Fork and Pull mechanism in GitHub. 
