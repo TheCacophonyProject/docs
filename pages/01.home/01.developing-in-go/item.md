@@ -19,21 +19,18 @@ Before you begin you define your $GOPATH in your environmental variables.   This
 > set GOPATH='/cacophony/go'
 ```
 
-## New Project
-To clone a new project you must do it using go
-```console
-> go get github.com/TheCacophonyProject/<projectname>    
-```
-    
-To build the project (to run on your development environment) first make sure you get all the go dependences and then run the build command
-```console
-> go get ./...
-> go build ./...
-```
+## Building projects
 If you want to build for the thermal-camera RaspberryPi hardware then run
 ```console
 > GOOS=linux GOARCH=arm GOARM=7 go build ./...
 ```
+
+## Testing
+You can run the tests for any project and its sub-folders by running
+```console
+> go test ./...
+```
+
 ## Working with your own repository fork
 When developing for Cacophony, you should be commiting all new code to your own development fork.  However, you can't directly check out your new fork as the code won't be in the correct place working with your other GO projects.  
     
