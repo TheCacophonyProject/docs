@@ -18,7 +18,7 @@ The basic work flow is:
 6. Commit the changes to the branch.
 7. Push the branch to GitHub.
 8. Open a pull request from the new branch to the original repo.
-9. On the pull page check that **All checks have passed**.  _(This is when we get run our style checker and tests)
+9. On the pull page check that **All checks have passed**.  _(This is when we get run our style checker and tests)_
 10. Wait for a project maintainer to approve your code.
 11. Clean up your code after your pull request is merged.
 
