@@ -31,3 +31,21 @@ You can run the tests for any project and its sub-folders by running
 > go test ./...
 ```
 
+## Test local changes in another module
+Sometimes you want to test changes you have made in a another module which have yet made it to the master branch.  
+
+For example you may have edited go-config, and want to use the new config in your go program _thermal-stuff_.   If that is the case you need to edit the _go.mod_ of _thermal-stuff_  and add a replace statement like this:
+```console
+go.mod:
+...
+replace https://github.com/TheCacophonyProject/go-config => /path/on/your/machine/go-config
+```
+This will tell go to look at your local path instead of pulling the module from the github. 
+
+Be careful not to checkin in the modified _go.mod_ or it will fail the tests. 
+
+For more details see [How to test local changes with go mod](https://medium.com/@teivah/how-to-test-a-local-branch-with-go-mod-54df087fc9cc)
+
+
+
+
