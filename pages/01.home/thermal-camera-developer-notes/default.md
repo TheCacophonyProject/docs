@@ -21,6 +21,7 @@ Our thermal camera software consists of many [software programs](https://github.
 |/var/spool/cptv/failed-uploads | CPTV files are moved here after multiple attempts have been made to upload them |
 |/usr/bin | Our executables are installed here |
 |/etc/systemd/system/ | Installation information for each service |
+|/var/log/system | Latest log file containing output from our services. (Other system.n.* files in the same directory are older log files) |
 
 # Installation details
 
