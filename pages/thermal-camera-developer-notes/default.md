@@ -1,5 +1,10 @@
 ---
 title: 'Thermal camera developer notes'
+published: true
+taxonomy:
+    category:
+        - Developer
+        - 'Thermal Camera'
 ---
 
 Here you will find information to help you navigate and debug any device on which you have installed our thermal-camera software. 
@@ -19,21 +24,41 @@ Our thermal camera software consists of many [software programs](https://github.
 
 # Installation details
 
-Our Raspberian Software .DEB files  is installed using **systemd**.   This means that most applications will automatically start when the thermal camera is powered up.  Some will also restart when they crash. 
+Our Raspberian Software is packaged into .DEB files and installed using **systemd**.   This means that most applications will automatically start when the thermal camera is powered up.  Some will also restart when they crash. 
 
-## Finding the services name
+## How to install our DEB packages
+
+To install one of our programs on your raspberry Pi:
+1.  Download the ***._arm.deb** file from the github release page to your Pi
+2.  Install the package using dpkg -i
+
+For example to install modemd, v1.1.0
+```
+> wget https://github.com/TheCacophonyProject/modemd/releases/download/v1.1.0/modemd_1.1.0_arm.deb
+> sudo dpkg -i modemd_1.1.0_arm.deb
+```
+
+To see what version of software is currently installed you can use dpkg -l. 
+
+For  modemd you can use:
+```
+> dpkg -l modemd
+```
+
+## Finding the service's name
 
 If you want to manually start/stop an application you can use the **sudo systemctl start someName.service** command.   
 
-To use this command you will need to know the service name of the application.   Look in the application's git repository, under the **_ release** directory to find this name.   
+To use this command you will need to know the service name of the application.   Look in the application's git repository, under the **_ release** directory to find this name.   Some github projects install more than one service. 
 
 Eg. if there is a _thermal-recorder.service_ file there then the service is called _thermal-recorder.service_
 
 ## Useful commands
 |Command|Description|
-| sudo systemctl start <service> |  Starts a service |
-| sudo systemctl stop <service>|  Stops a service |
-| systemctl status <service>| Tells you whether a service is running |
-| journalctl -u <service> -f | Shows a rolling (updating) log of all the log information for the service specified |
+|---|---|
+| sudo systemctl start <service> |  Start a service |
+| sudo systemctl stop <service>|  Stop a service |
+| systemctl status <service>| Get information about whether a service is running |
+| journalctl -u <service> -f | Show a rolling (updating) log of for the service specified |
 
 For a list of more commands read [Systemd Essentials](https://www.digitalocean.com/community/tutorials/systemd-essentials-working-with-services-units-and-the-journal)
