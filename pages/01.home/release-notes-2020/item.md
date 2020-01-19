@@ -15,6 +15,29 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 20 January
+
+### Production
+
+#### Browse Portal
+
+- Tidy up the groups and device Admin pages
+- Added help for Visits feature
+- Fixed bug with page not loading for some URLs
+- Fixed bug with remembering preferred user playback speed
+
+#### API Server
+
+- Reduce bug and improve code maintenance and navigation by using TypeScript 
+- Add specialised API to speed up beta power tagging feature
+- Access tokens (JWT) support added to add/delete tag endpoints (for power tagging)
+- Access tokens for recordings are now only computed if the recording exists
+- Recording data is now deleted in the background at API call time, reducing the data that needs to be pruned later
+- Internal `fileKey` and `rawFileKey` fields are now longer exposed by the external API
+- Preserve API server Docker container after it stops so that logs are available for troubleshooting
+- Ensure all thrown errors are Error subclasses
+
+
 ## Week of 13 January
 
 ### Production
