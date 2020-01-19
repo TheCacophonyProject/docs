@@ -37,6 +37,21 @@ following week.
 - Preserve API server Docker container after it stops so that logs are available for troubleshooting
 - Ensure all thrown errors are Error subclasses
 
+#### Upload Processing
+
+- Pin to specific audio-analysis version to ensure consistent behaviour and support upgrades
+
+#### Predator Classifier
+
+- Use config.toml for configuration (on Raspberry Pi)
+- Fixed bug where export would failed if clip was all preview
+- Fixed bug where closing the MPEG creater  would fail if it was never used
+- Support snapshot generation (for management interface)
+- Fix time window calculation
+- Support motion without running the classifier (for Raspberry Pi)
+- Fixed invalid reference to configuration
+- Fix location tuple
+- Keep last frame in memory for management interface
 
 ## Week of 13 January
 
