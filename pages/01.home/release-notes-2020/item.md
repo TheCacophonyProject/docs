@@ -53,6 +53,18 @@ following week.
 - Fix location tuple
 - Keep last frame in memory for management interface
 
+### Testing
+
+#### API Server
+
+- Normalise "false positive" tag
+- Fixed bulk tagging query returning archived tracks 
+- Removed unused code
+- Remove some unnecessary logs
+- Restore GroupUsers for GET /api/v1/groups
+
+
+
 ## Week of 13 January
 
 ### Production
