@@ -63,7 +63,17 @@ following week.
 - Remove some unnecessary logs
 - Restore GroupUsers for GET /api/v1/groups
 
+#### Browse Portal
 
+- Tweaks for API changes
+- Suppress additional unnecessary api requests.
+- Adding support for bulk-tagging API
+- Allow anyone to view bulk tagger
+- Added tags for deer, sheep, and goat
+
+#### Upload Processing
+
+- Cacophony Index fix for silent recordings: update correction curve so it is never negative
 
 ## Week of 13 January
 
