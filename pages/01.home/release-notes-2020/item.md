@@ -15,6 +15,29 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 27 January
+
+### Production
+
+#### API Server
+
+- Normalise "false positive" tag
+- Fixed bulk tagging query returning archived tracks 
+- Removed unused code
+- Remove some unnecessary logs
+- Restore GroupUsers for GET /api/v1/groups
+- Restore GroupUsers manipulation
+- Add back devicename to group info.
+
+#### Browse Portal
+
+- Tweaks for API changes
+- Suppress additional unnecessary api requests.
+- Adding support for bulk-tagging API
+- Allow anyone to view bulk tagger
+- Added tags for deer, sheep, and goat
+- Fix issues with users under groups in the Admin area
+
 ## Week of 20 January
 
 ### Production
