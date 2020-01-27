@@ -42,6 +42,11 @@ following week.
 
 - Cacophony Index fix for silent recordings: update correction curve so it is never negative
 
+#### Thermal Camera 
+
+- Change thermal camera socket and metadata handling to support new camera types
+- Show last timestamp update in management interface
+
 ## Week of 20 January
 
 ### Production
