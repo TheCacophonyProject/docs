@@ -41,7 +41,7 @@ following week.
 #### Upload Processing
 
 - Cacophony Index fix for silent recordings: update correction curve so it is never negative
-- 
+
 ## Week of 20 January
 
 ### Production
