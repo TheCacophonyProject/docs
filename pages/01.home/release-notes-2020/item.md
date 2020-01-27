@@ -38,6 +38,10 @@ following week.
 - Added tags for deer, sheep, and goat
 - Fix issues with users under groups in the Admin area
 
+#### Upload Processing
+
+- Cacophony Index fix for silent recordings: update correction curve so it is never negative
+- 
 ## Week of 20 January
 
 ### Production
