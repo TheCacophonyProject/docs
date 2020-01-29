@@ -38,6 +38,8 @@ following week.
 - Allow anyone to view bulk tagger
 - Added tags for deer, sheep, and goat
 - Fix issues with users under groups in the Admin area
+- Tidy up Power Tagger action buttons
+- Add delete button to Power Tagger page for superusers
 
 #### Upload Processing
 
