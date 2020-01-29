@@ -28,6 +28,7 @@ following week.
 - Restore GroupUsers for GET /api/v1/groups
 - Restore GroupUsers manipulation
 - Add back devicename to group info.
+- Fix duplicate recording removal
 
 #### Browse Portal
 
