@@ -15,6 +15,18 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 3 February
+
+### Production
+NA
+### Testing
+
+#### API Server
+- Fix prune objects (error in config was preventing from running)
+
+#### Thermal camera
+- Show last time software was updated in About Page
+
 ## Week of 27 January
 
 ### Production
