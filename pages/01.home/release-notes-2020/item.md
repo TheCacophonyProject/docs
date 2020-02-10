@@ -22,6 +22,9 @@ following week.
 #### API Server
 - Fix prune objects (error in config was preventing from running)
 
+#### Thermal camera
+- Show last time software was updated in About Page
+
 ### Testing
 
 #### API Server
