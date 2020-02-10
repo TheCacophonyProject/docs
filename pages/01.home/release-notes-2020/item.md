@@ -35,7 +35,7 @@ following week.
 - Restored missing data from audio bait schedule API
 - Add systemError as tag type and update how JSONB are compared in sequelize
 
-#### Cacophony Browse
+#### Browse Portal
 - Fix administration of groups
 
 ## Week of 3 February
