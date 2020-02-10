@@ -27,7 +27,11 @@ following week.
 
 ### Testing
 
+#### Thermal camera
+-  Added API for getting and deleting events
+
 #### API Server
+- Fix administration of groups
 - Avoid systemctl pager usage in postinstall script
 - Restored missing data from audio bait schedule API
 - Add systemError as tag type and update how JSONB are compared in sequelize
