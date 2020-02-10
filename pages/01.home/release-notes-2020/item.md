@@ -29,6 +29,7 @@ following week.
 
 #### Thermal camera
 -  Added API for getting and deleting events
+-  Alerting for service failures
 
 #### API Server
 - Avoid systemctl pager usage in postinstall script
