@@ -15,7 +15,22 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
-## Week of 4 February
+## Week of 17th February
+
+### Production
+
+#### API Server
+- Avoid systemctl pager usage in postinstall script
+- Restored missing data from audio bait schedule API
+- Add systemError as tag type and update how JSONB are compared in sequelize
+
+#### Browse Portal
+- Fix administration of groups
+
+
+### Test Server
+
+## Week of 10th February
 
 ### Production
 
