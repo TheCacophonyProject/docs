@@ -29,6 +29,9 @@ following week.
 
 
 ### Test Server
+#### API Server
+ - When pruning no longer required recordings from disk, wait 20 minutes between fetching the list and pruning objects.   This should give the recordings time to be processed. 
+
 
 ## Week of 10th February
 
