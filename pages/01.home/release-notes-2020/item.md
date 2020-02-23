@@ -15,6 +15,30 @@ Releases to our testing servers and devices are listed under the
 "Production". Changes being tested generally end up in production the
 following week.
 
+## Week of 24th February
+
+### Production
+
+#### API Server
+- When pruning no longer required recordings from disk, wait 20 minutes between fetching the list and pruning objects. This should give the recordings time to be processed. 
+
+#### Browse Portal
+NA
+
+#### Thermal camera
+NA
+
+### Test Server
+
+#### API Server
+NA
+
+#### Browse Portal
+NA
+
+#### Thermal camera
+- Fix default SPI speed on camera
+
 ## Week of 17th February
 
 ### Production
