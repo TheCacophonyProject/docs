@@ -10,11 +10,6 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 
-Releases to our testing servers and devices are listed under the
-"Testing" header while testing to production are listed under
-"Production". Changes being tested generally end up in production the
-following week.
-
 ## Week of 24th February
 
 ### API Server

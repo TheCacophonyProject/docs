@@ -6,62 +6,50 @@ taxonomy:
         - 'Project Updates'
 ---
 
+# Software releases
+
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 
-Releases to our testing servers and devices are listed under the
-"Testing" header while testing to production are listed under
-"Production". Changes being tested generally end up in production the
-following week.
-
 ## Week of 24th February
 
-### Production
-
-#### API Server
+### API Server
 - When pruning no longer required recordings from disk, wait 20 minutes between fetching the list and pruning objects. This should give the recordings time to be processed. 
 
-#### Browse Portal
+### Browse Portal
 NA
 
-#### Thermal camera
+### Thermal camera
 NA
 
 ## Week of 17th February
 
-### Production
-
-#### API Server
+### API Server
 - Avoid systemctl pager usage in postinstall script
 - Restored missing data from audio bait schedule API
 - Add systemError as tag type and update how JSONB are compared in sequelize
 
-#### Browse Portal
+### Browse Portal
 - Fix administration of groups
 
 
 ## Week of 10th February
 
-### Production
-
-#### API Server
+### API Server
 - Fix prune objects (error in config was preventing from running)
 
-#### Thermal camera
+### Thermal camera
 - Show last time software was updated in About Page
 
 
 ## Week of 3rd February
 
-### Production
 No release was done
 
 ## Week of 27th January
 
-### Production
-
-#### API Server
+### API Server
 
 - Normalise "false positive" tag
 - Fixed bulk tagging query returning archived tracks 
@@ -72,7 +60,7 @@ No release was done
 - Add back devicename to group info.
 - Fix duplicate recording removal
 
-#### Browse Portal
+### Browse Portal
 
 - Tweaks for API changes
 - Suppress additional unnecessary api requests.
@@ -83,27 +71,25 @@ No release was done
 - Tidy up Power Tagger action buttons
 - Add delete button to Power Tagger page for superusers
 
-#### Upload Processing
+### Upload Processing
 
 - Cacophony Index fix for silent recordings: update correction curve so it is never negative
 
-#### Thermal Camera 
+### Thermal Camera 
 
 - Change thermal camera socket and metadata handling to support new camera types
 - Show last timestamp update in management interface
 
 ## Week of 20 January
 
-### Production
-
-#### Browse Portal
+### Browse Portal
 
 - Tidy up the groups and device Admin pages
 - Added help for Visits feature
 - Fixed bug with page not loading for some URLs
 - Fixed bug with remembering preferred user playback speed
 
-#### API Server
+### API Server
 
 - Reduce bug and improve code maintenance and navigation by using TypeScript 
 - Add specialised API to speed up beta power tagging feature
@@ -114,11 +100,11 @@ No release was done
 - Preserve API server Docker container after it stops so that logs are available for troubleshooting
 - Ensure all thrown errors are Error subclasses
 
-#### Upload Processing
+### Upload Processing
 
 - Pin to specific audio-analysis version to ensure consistent behaviour and support upgrades
 
-#### Predator Classifier
+### Predator Classifier
 
 - Use config.toml for configuration (on Raspberry Pi)
 - Fixed bug where export would failed if clip was all preview
@@ -132,17 +118,15 @@ No release was done
 
 ## Week of 13th January
 
-### Production
-
-#### API Server
+### API Server
 
 - Set longer request timeout for report endpoint
 
-#### Browse Portal
+### Browse Portal
 
 - Added End User Agreement prompt
 
-#### Thermal Camera
+### Thermal Camera
 
 - When being requested to stay on during updates or maintenance,
   always stay on for the maximum requested time
