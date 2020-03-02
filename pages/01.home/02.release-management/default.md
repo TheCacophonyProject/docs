@@ -4,7 +4,7 @@ title: 'Release Management'
 
 This document describes the weekly process of promoting software from development -> test ->  production.  It is only of interest to the core team or anyone wanting to maintain their own cacophony server.  
 
-Currently it only covers the server software and raspberry pi software for the camera.
+This document covers server software and the thermal camera software.   It does not currently explain the release processes for our two android apps - birdmonitor and sidekick. 
 
 This document is written to be followed from top to bottom each release day.  **Before starting the process make sure the previous release in test has been pushed to production. **
 
@@ -15,9 +15,8 @@ Start by releasing software on the servers and then the camera software.
 1. Run the find-unreleased tool on the Salt server (this can also be run locally if you have ops-tools). This will highlight any of Cacophony Project software with changes that haven't made it into a release yet.
 2. For each server package that has unreleased changes:
   1. Create a release via the Github releases page for that software.
-  2. Fill in the release notes, using the output from find-unreleased as a starting point.
+  2. Update the [test server release notes](https://docs.cacophony.org.nz/admin/pages/home/release-notes-2), using the output from find-unreleased as a starting point.  
   3. Once the release is built, SSH into the appropriate test server and install using wget and dpkg as above.
-  4. Update the [test server release notes](https://docs.cacophony.org.nz/admin/pages/home/release-notes-2)
   5. Once all updated server packages have been deployed to the test servers you should run the integration tests and ensure they still pass. The tests run a series of functional checks against the browse portal, API server and thermal camera software.
 Visit https://travis-ci.com/TheCacophonyProject/integration-tests/ in your web browser
 Click the Restart Build button on the right hand side
