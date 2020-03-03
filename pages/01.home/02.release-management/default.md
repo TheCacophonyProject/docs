@@ -14,9 +14,11 @@ Start by releasing software on the servers and then the camera software.
 ### Server Packages
 1. Run the find-unreleased tool on the Salt server (this can also be run locally if you have ops-tools). This will highlight any of Cacophony Project software with changes that haven't made it into a release yet.
 2. For each server package that has unreleased changes:
-  1. Create a release via the Github releases page for that software.
+  1. [Create a release in Github](/home/creating-releases) releases page for that software.
   2. Update the [test server release notes](https://docs.cacophony.org.nz/admin/pages/home/release-notes-2), using the output from find-unreleased as a starting point.  
-  3. Once the release is built, SSH into the appropriate test server and install using wget and dpkg as above.
+  3. Once the release is built, SSH into the appropriate test server.  Download the package and then install it
+     * wget <url>
+     * sudo dpkg -i <package.deb>
   5. Once all updated server packages have been deployed to the test servers you should run the integration tests and ensure they still pass. The tests run a series of functional checks against the browse portal, API server and thermal camera software.
 Visit https://travis-ci.com/TheCacophonyProject/integration-tests/ in your web browser
 Click the Restart Build button on the right hand side
