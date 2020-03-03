@@ -19,11 +19,10 @@ Start by releasing software on the servers and then the camera software.
   3. Once the release is built, SSH into the appropriate test server.  Download the package and then install it
      * wget <url>
      * sudo dpkg -i <package.deb>
-  5. Once all updated server packages have been deployed to the test servers you should run the integration tests and ensure they still pass. The tests run a series of functional checks against the browse portal, API server and thermal camera software.
-Visit https://travis-ci.com/TheCacophonyProject/integration-tests/ in your web browser
-Click the Restart Build button on the right hand side
-Wait for the tests to run and ensure that they pass.
-
+  5. Check the [integration tests](https://github.com/TheCacophonyProject/integration-tests) pass.  The tests run a series of functional checks against the browse portal, API server and thermal camera software.
+     * Go to [travis](https://travis-ci.com/TheCacophonyProject/integration-tests/) and click restart
+     * Check that the tests pass.
+ 
 ### Raspberry Pi Packages
 Updates to our Raspberry Pi software is managed through Salt. Any configuration in the saltops test branch is automatically deployed to specified test devices. Similarly any configuration merged into the prod branch is automatically deployed onto all non-test devices.
 
