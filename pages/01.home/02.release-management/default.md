@@ -28,37 +28,19 @@ Updates to our Raspberry Pi software is managed through Salt. Any configuration 
 
 The dev branch contains changes that are due to be merged into test. They are not automatically deployed.
 
+1.  On the Salt master server (or locally if you have ops-tools), run find-unreleased.
+2.  For each Raspberry Pi package that has unreleased changes:
+  1. [Create a release in Github](/home/creating-releases) releases page for that software.
+  2. Update the [test server release notes](https://docs.cacophony.org.nz/admin/pages/home/release-notes-2) using the nice goreleaser release notes, or output from find-unreleased as a starting point.
+3.  Create a PR for the saltops dev branch which bumps the version that Salt will deploy to test devices for each changed package.  
+4.  Merge the saltops dev branch (including the changes you've just made) into the test branch.   This will cause the software to be updated on test devices.  
 
-#### Promoting from test to prod
-Start by promoting any changes from test to prod.
+### Test the test server updates
+As soon as possible after the update is finished, check (or get someone else to) that the server and a test thermal camera is working as expected.
+1.  Check the thermal camera has updated and has the expected version of all the packages.  
+2.  Check each change is working as expected.   This means checking the new functionality is working as well as existing functionality in the same area that could be touched by the change. 
 
-If you haven't already, clone the saltops repo
-Pull the latest changes from all upstream branches: git fetch origin
-Review the new changes in test
-git log --reverse origin/prod..origin/test
-For each change confirm on a test device that the change has been working ok. Asking the developer responsible for the work to do this is encouraged.
-Be aware that some changes also require a change to top.sls in the master branch. This should be mentioned in the 
-Once you are happy with these changes to to production, merge them into prod:
-git checkout -b update-prod -t origin/prod
-git merge origin/test
-git push 
-Create a PR for the branch you've just pushed, get someone to review, then merge.
-Update the release notes on docs.cacophony.org.nz.
-Unreleased changes
-Next, create new packages for any Raspberry Pi related software which has unreleased changes.
-On the Salt master server (this can also be run locally if you have ops-tools), run find-unreleased again.
-For each Raspberry Pi package that has unreleased changes:
-Create a release via the Github releases page for that software.
-Our Go software will be built using Goreleaser which automatically creates nice release notes so there's no need to write them yourself for these repos.
-For anything else, write your own release notes, using the output from find-unreleased as a starting point.
-Once the release is built
-Create a PR for the saltops dev branch which bumps the version that Salt will deploy to include the new version.
-You may want to combine all the updates for the week into one PR to save time.
-
-
-Merge dev to test
-Finally, merge the saltops dev branch into the test branch. This will cause any updates that have been merged into dev over the past week (including what you may have done in the previous step) to be released to test devices.
-
+    
 The steps are:
 git fetch origin
 git checkout -b update-test -t origin/test
@@ -85,6 +67,22 @@ Get the package URL from the Github release page
 wget <url>
 sudo dpkg -i <package.deb>
 Update the release notes on docs.cacophony.org.nz as described at the top of this document.
+
+#### Promoting from test to prod
+Start by promoting any changes from test to prod.
+
+If you haven't already, clone the saltops repo
+Pull the latest changes from all upstream branches: git fetch origin
+Review the new changes in test
+git log --reverse origin/prod..origin/test
+For each change confirm on a test device that the change has been working ok. Asking the developer responsible for the work to do this is encouraged.
+Be aware that some changes also require a change to top.sls in the master branch. This should be mentioned in the 
+Once you are happy with these changes to to production, merge them into prod:
+git checkout -b update-prod -t origin/prod
+git merge origin/test
+git push 
+Create a PR for the branch you've just pushed, get someone to review, then merge.
+Update the release notes on docs.cacophony.org.nz.
 
     
     
