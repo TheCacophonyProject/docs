@@ -11,16 +11,17 @@ software updates each week. The latest updates are at the top of the
 article.
 
 ## Week of 2nd March
-### API Server
-No release.   Only support files added to repository 
-
 ### Browse Portal
 Fixed search but where page wasn't being reset when search criteria changed. 
 
 ### Thermal camera
- - Rebuilt recorder (to incorporate raw writer which is only for use with bolson)  - thermal-recorder(v2.6.0)
- - Fixed bug so device config files are properly deleted when configuring a new device - device-register(v1.1.0)
-
+ - Rebuilt recorder (to incorporate raw writer which is only for use with bolson)  - thermal-recorder(v2.5.0 -> v2.6.0)
+ - Fixed bug so device config files are properly deleted when configuring a new device - device-register(v1.0.0 -> v1.1.0)
+ - Updated modemd (this update was missed) - modemd (v1.0.0 - v1.1.1)
+    - Rename setting and upgade go-config
+    - Update loggind and require minimum connection time and max time between connections
+    - Increase time between running lsusb to find modem to save energy 
+    - Reduce logging
 
 ## Week of 24th February
 
