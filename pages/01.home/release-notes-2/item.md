@@ -9,6 +9,13 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Week of 16th March
+### Browse Portal
+Bring back search button/panel on mobile and tablet views
+added support for multiple AI models
+
+### Thermal Processing
+Added ability to run multiple models
 
 ## Week of 2nd March
 ### Browse Portal
