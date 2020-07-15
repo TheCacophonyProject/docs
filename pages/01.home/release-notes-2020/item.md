@@ -11,6 +11,18 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Week of 28th June
+
+### API Server
+- Make usernames, group names and devicenames case insensitive
+- Added visits API end point
+- Make Device name + Groups Unique
+- Added reporting for event service issues
+
+### Browse Portal
+- Added csv export to the visits page
+- Removed limit of number of visits and added load more visits button
+- Added sound lures to the visits page
 
 ## Week of 16th March
 ### Browse Portal
