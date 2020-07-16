@@ -9,6 +9,13 @@ taxonomy:
 aTis article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Week of 13th Jule
+### Browse Portal
+Display tags and tag images properly
+
+### Thermal Processing
+- Added ability to ignore tags
+- Added keras model support
 
 ## Week of 28th June
 
