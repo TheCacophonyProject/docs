@@ -8,10 +8,10 @@ We  <b style='color:darkred'>love</b> people like you.
 
 For a start, to get things rolling you might like to try one of our [good first issues](https://github.com/search?utf8=%E2%9C%93&q=org%3ATheCacophonyProject+is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22&type=Issues)
 
-If you are looking for something a bit more chunky then have a look at our mini- or mega-projects below.   This is a list of things we would really love to see happen, but just have managed to make happen yet.   Then you can sign your name to a piece of functionality and know you've made your mark, helped the birds and shown the world the kind of code-ninjaring that you are capable of.   Need more inspirations?  Read 
+If you are looking for something a bit more <b style='color:navy'>chunky</b> then have a look at our mini- or mega-projects below.   This is a list of things we would <b style='color:darkred'>really love</b> to see happen, but haven't managed to make happen yet...    Complete one of these and you'll know you've <b style='color:navy'>made your mark</b>, <b style='color:forestgreen'>helped the birds</b> and shown the world the kind of <b style='color:black'>code-ninjaring</b> that you are capable of. 
 
 ### Mini project - password reset for the browse portal
-**why? ** Because, right now someone has to personally reset passwords.   And lets face it how many people remember every password now we have like a zillion of logins.  
+**why? ** Because, right now someone has to personally reset forgotten passwords and not everyone remembers the zillionth login!.  
 
 **tools?** <b style='background-color:GreenYellow'>vuejs</b>  [browse](https://github.com/TheCacophonyProject/cacophony-browes), <b style='background-color:GreenYellow'>nodejs</b>  [api](https://github.com/TheCacophonyProject/cacophony-api),
 ___
