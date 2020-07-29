@@ -25,7 +25,7 @@ ___
 
 ___
 
-###  Project - move sound lure interface to the new codebase
+###  Project - Port sound lure setup interface to Vuejs
 **why?** When we moved over to our new <b style='background-color:GreenYellow'>vuejs</b> front-end the sound lure stuff had not been finished.   And it still isn't.   Once we move this over we will no longer need our extra old front end server which will help us heaps. 
 
 **tech?** <b style='background-color:GreenYellow'>vuejs</b>, [browse](https://github.com/TheCacophonyProject/cacophony-browse), reading <b style='background-color:GreenYellow'>js</b>, [web-old](https://github.com/TheCacophonyProject/cacophony-web-old),  
