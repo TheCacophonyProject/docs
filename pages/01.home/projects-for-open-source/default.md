@@ -11,11 +11,19 @@ For a start, to get things rolling you might like to try one of our [good first 
 If you are looking for something a bit more <b style='color:navy'>chunky</b> then have a look at our mini- or mega-projects below.   This is a list of things we would <b style='color:darkred'>really love</b> to see happen, but haven't managed to make happen yet...    Complete one of these and you'll know you've <b style='color:navy'>made your mark</b>, <b style='color:forestgreen'>helped the birds</b> and shown the world the kind of <b style='color:black'>code-ninjaring</b> that you are capable of. 
 
 Before you start any of these, it's probably worth getting in touch with us so we can give you the background  and get you started right. 
+___
 
-### Mini project - password reset for the browse portal
-**why? ** Because, right now someone has to personally reset forgotten passwords and not everyone remembers the zillionth login!.  
+###  Project - Password reset for the browse portal
+**why?** Because, right now someone has to personally reset forgotten passwords and not everyone remembers the zillionth login!.  
 
 **tools?** <b style='background-color:GreenYellow'>vuejs</b>  [browse](https://github.com/TheCacophonyProject/cacophony-browse), <b style='background-color:GreenYellow'>nodejs</b>  [api](https://github.com/TheCacophonyProject/cacophony-api),
+___
+
+###  Project - Demo for interested parties and new contributors.
+**why?** Right now it's hard to see what our  software does because you sign up and can't see any recording.   Then if you want to change code it's hard to know how to add videos to test with.   
+
+**tools?** There are many parts to this one.   You could <b style='background-color:GreenYellow'>write documentation</b> or change the api to let everyone see recordings from certain groups (but not delete them) <b style='background-color:GreenYellow'>nodejs</b>  [api](https://github.com/TheCacophonyProject/cacophony-api), 
+
 ___
 
 ###  Project - rewrite API tests in JS, maybe using Cypress
