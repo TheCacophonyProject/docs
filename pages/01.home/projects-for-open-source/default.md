@@ -24,12 +24,21 @@ ___
 
 **tools?** There are many parts to this one.   You could <b style='background-color:GreenYellow'>write documentation</b> or change the api to let everyone see recordings from certain groups (but not delete them) <b style='background-color:GreenYellow'>nodejs</b>  [api](https://github.com/TheCacophonyProject/cacophony-api), 
 
+
+___
+
+###  Project - Automated browse tests in Cypress.io
+**why?**  So that when we make new releases we don't break existing functionality.  The test frame work is done but we need to test more of our features.
+
+**tech?** <b style='background-color:GreenYellow'>js</b> <b style='background-color:GreenYellow'>cypress.io</b>, [api](https://github.com/TheCacophonyProject/cacophony-api), also consider the relationship with our [cypress browse-api integration tests](https://github.com/TheCacophonyProject/integration-tests)
+
+
 ___
 
 ###  Project - rewrite API tests in JS, maybe using Cypress
 **why?**  The api and browse are written in nodejs, the api-tests in python, and the browse integration tests in Cypress (js).   If everything was js and no python involved it would be easier for people to contribute and to maintain. 
 
-**tech?** Reading <b style='background-color:GreenYellow'>python</b>, writing <b style='background-color:GreenYellow'>node.js</b>, [api](https://github.com/TheCacophonyProject/cacophony-api), also consider the relationship with our [cypress browse-api integration tests](https://github.com/TheCacophonyProject/integration-tests)
+**tech?** Reading <b style='background-color:GreenYellow'>python</b>, writing <b style='background-color:GreenYellow'>node.js</b>, [integration-tests](https://github.com/TheCacophonyProject/integration-tests) testing [browse portal](https://github.com/TheCacophonyProject/cacophony-browse)
 
 ___
 
@@ -39,6 +48,7 @@ ___
 **tech?** <b style='background-color:GreenYellow'>vuejs</b>, [browse](https://github.com/TheCacophonyProject/cacophony-browse), reading <b style='background-color:GreenYellow'>js</b>, [web-old](https://github.com/TheCacophonyProject/cacophony-web-old),  
 
 ___
+
 
 ### Mega project:  Automate testing for our data collector sidekick (android)
 Our sidekick app connects to our raspberry pi thermal camera via wifi to get recordings off devices in the field that are outside cell phone range.   Since this is a workflow that will happen in the field, it is vital that it works first time, everytime so we need some tests. 
