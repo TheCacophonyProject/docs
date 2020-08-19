@@ -30,7 +30,7 @@ ___
 ###  Project - Automated browse tests in Cypress.io
 **why?**  So that when we make new releases we don't break existing functionality.  The test frame work is done but we need to test more of our features.
 
-**tech?** <b style='background-color:GreenYellow'>js</b> <b style='background-color:GreenYellow'>cypress.io</b>, [api](https://github.com/TheCacophonyProject/cacophony-api), also consider the relationship with our [cypress browse-api integration tests](https://github.com/TheCacophonyProject/integration-tests)
+**tech?** <b style='background-color:GreenYellow'>js</b>, <b style='background-color:GreenYellow'>cypress.io</b>, [integration-tests](https://github.com/TheCacophonyProject/integration-tests) testing [browse portal](https://github.com/TheCacophonyProject/cacophony-browse)
 
 
 ___
@@ -38,7 +38,7 @@ ___
 ###  Project - rewrite API tests in JS, maybe using Cypress
 **why?**  The api and browse are written in nodejs, the api-tests in python, and the browse integration tests in Cypress (js).   If everything was js and no python involved it would be easier for people to contribute and to maintain. 
 
-**tech?** Reading <b style='background-color:GreenYellow'>python</b>, writing <b style='background-color:GreenYellow'>node.js</b>, [integration-tests](https://github.com/TheCacophonyProject/integration-tests) testing [browse portal](https://github.com/TheCacophonyProject/cacophony-browse)
+**tech?** Reading <b style='background-color:GreenYellow'>python</b>, writing <b style='background-color:GreenYellow'>node.js</b>, [api](https://github.com/TheCacophonyProject/cacophony-api), also consider the relationship with our [cypress browse-api integration tests](https://github.com/TheCacophonyProject/integration-tests)
 
 ___
 
