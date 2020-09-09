@@ -11,11 +11,12 @@ software updates each week. The latest updates are at the top of the
 article.
 
 ## Wednesday 9th September
-### Browse Portal
+### Browse Portal (v2.25.1)
 Next button goes through videos with the search parameters, 
 Search url is readable/editable, 
 Can select time for custom time period on search
 Added cypress tags
+Reinstated delete button in the delete users for groups
 
 
 ## Week of 13th July
