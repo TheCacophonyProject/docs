@@ -11,6 +11,16 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+
+## Wednesday 16th September
+### Browse Portal (v2.26.0)
+- Next button goes through videos with the search parameters, 
+- Search url is readable/editable, 
+- Can select time for custom time period on search
+- Added cypress tags
+- Reinstated delete button in the delete users for groups
+- Analysis page waits until user selects a group before it gets results.  (To stop overloading the server). 
+
 ## Week of 28th June
 
 ### API Server
