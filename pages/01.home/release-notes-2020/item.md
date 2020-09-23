@@ -11,6 +11,9 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Wednesday 24th September - Tuesday 1st October
+### Predator Classifier (v2.6.4)
+- Add support for latest movement model
 
 ## Wednesday 16th September
 ### Browse Portal (v2.26.0)

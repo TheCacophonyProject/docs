@@ -9,6 +9,12 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Wednesday 24th September - Tuesday 1st October
+### Thermal Processing (v2.6.0)
+- Upload prediction info per frame
+
+### Predator Classifier (v2.6.5)
+- Add support for latest movement model
 
 ## Wednesday 9th September - Tuesday 15th
 ### Browse Portal (v2.26.0)
