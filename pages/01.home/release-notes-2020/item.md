@@ -11,6 +11,16 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+
+## Thursday 1st September
+### Browse Portal (v2.26.2)
+- Visits no query on page load,
+- Recordings table view has correct link
+- Recordings table view order of columns changed
+- Fixed recordings next/prev bug
+- Default search period is 7 days.
+- Fixed export no having search parameters
+
 ## Wednesday 24th September - Tuesday 1st October
 ### Predator Classifier (v2.6.4)
 - Add support for latest movement model
