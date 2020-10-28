@@ -14,7 +14,8 @@ article.
 - Add support for lepton3.5
 
 ### Thermal camera (v2.9.1)
--Added support for lepton3.5 and removed threshold limit
+- Added support for lepton3.5 and removed threshold limit
+
 
 ## Thursday 1st September
 ### Browse Portal (v2.26.2)
