@@ -10,7 +10,7 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Wednesday 28th September
-### Predator Classifier (v2.7.0)
+### Predator Classifier (v2.7.1)
 - Add support for lepton3.5
 
 ### Thermal camera (v2.9.1)
