@@ -11,6 +11,10 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Friday 13th November
+### API Server
+- Allow metadata to be uploaded with raw cptv
+
 ## Wednesday 28th September
 ### Predator Classifier (v2.7.1)
 - Add support for lepton3.5
