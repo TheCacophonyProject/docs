@@ -11,6 +11,16 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+
+## Wednesday 25th November
+### Browse Portal (v2.26.3)
+- Thermal recordings now show one overall AI classification which uses different models for wallaby and non-wallaby projects
+- Added unidentified, wallaby and rabbit icons.
+- Analysis page links to Visits page not recordings. 
+- Recordings card can now be opened in a new tab 
+- Improved spinning icon
+- Fixed disappearing tool tips
+
 ## Friday 13th November
 ### API Server
 - Allow metadata to be uploaded with raw cptv
