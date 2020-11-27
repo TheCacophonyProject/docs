@@ -9,6 +9,9 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Friday 27th November
+### API Server
+- Visits page now groups future unidentified events properly
 
 ## Wednesday 25th November
 ### Browse Portal (v2.26.3)
