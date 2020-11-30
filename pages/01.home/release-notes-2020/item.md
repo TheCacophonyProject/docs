@@ -16,6 +16,7 @@ article.
 - Visits page now groups future unidentified events properly
 
 ## Wednesday 25th November
+
 ### Browse Portal (v2.26.3)
 - Thermal recordings now show one overall AI classification which uses different models for wallaby and non-wallaby projects
 - Added unidentified, wallaby and rabbit icons.

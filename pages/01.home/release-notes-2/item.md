@@ -14,6 +14,10 @@ article.
 - Visits page now groups future unidentified events properly
 
 ## Wednesday 25th November
+
+### Thermal camera (v2.9.2)
+- Fix for thermal recordings getting into a bad state, when a zero pixel was detected
+
 ### Browse Portal (v2.26.3)
 - Thermal recordings now show one overall AI classification which uses different models for wallaby and non-wallaby projects
 - Added unidentified, wallaby and rabbit icons.
