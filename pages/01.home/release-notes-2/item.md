@@ -9,6 +9,14 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Tuesday 8th December
+#### API server (v 5.10.2)
+Added ability to get latest events.
+
+## Wednesday 2nd December
+#### API server (v 5.10.1)
+Added ability to select events by type
+
 ## Friday 27th November
 ### API Server
 - Visits page now groups future unidentified events properly
