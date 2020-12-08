@@ -11,7 +11,7 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
-## Tuesday 08th November
+## Tuesday 8th November
 ### Thermal Camera (v2.9.2)
 - Added support for lepton3.5
 - Removed maximum temperature threshold.
