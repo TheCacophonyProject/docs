@@ -16,7 +16,8 @@ article.
 - Added support for lepton3.5
 - Removed maximum temperature threshold.
 - Restart camera on bad first pixel
--
+
+
 ## Monday 30th November
 ### API Server (v5.10.0)
 - Visits page now groups future unidentified events properly
