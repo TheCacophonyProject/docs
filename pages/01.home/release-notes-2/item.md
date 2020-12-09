@@ -9,6 +9,14 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Wednesday 9th December
+#### Browse (v2.27.1)
+* Tagging interface for users has been improved.   Users are encouraged to confirm or reject AI tags.  
+* Tagging interface now shows the actual tag for the user even if it isn't one of the default quick tags
+* Admin devices page shows the software version (heart beat) info if the camera has sent this information to the server.   
+* ORC group devices will not get wallaby as one of the quick tag buttons
+* Vehicle tag now available in the additional tags menu. 
+
 ## Tuesday 8th December
 #### API server (v 5.10.2)
 Added ability to get latest events.
