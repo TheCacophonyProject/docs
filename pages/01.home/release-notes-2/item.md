@@ -16,7 +16,7 @@ Add alerts
 Fix Visit Grouping Incorrectly 
 use master tag in visits calculation 
 
-### Thermal Processing (v2.7.0)
+### Thermal Processing (v2.7.1)
 - Added a config item that specifies how long to wait when the last poll showed there is nothing to process.
 - Added config to give model tag precedences, so we can have one "master" tag for each track
 - Added thermal entry to processing_TEMPLATE and updated processing.config accordingly
