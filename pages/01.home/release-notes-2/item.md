@@ -10,14 +10,20 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Thursday 17th December
-#### API server (v 5.11.0)
+### API server (v 5.11.0)
 Added some super user operations: - Get users list - Authenticate as another user
 Add alerts 
 Fix Visit Grouping Incorrectly 
 use master tag in visits calculation 
 
+### Thermal Processing (v2.7.0)
+- Added a config item that specifies how long to wait when the last poll showed there is nothing to process.
+- Added config to give model tag precedences, so we can have one "master" tag for each track
+- Added thermal entry to processing_TEMPLATE and updated processing.config accordingly
+
+
 ## Wednesday 9th December
-#### Browse (v2.27.1)
+### Browse (v2.27.1)
 * Tagging interface for users has been improved.   Users are encouraged to confirm or reject AI tags.  
 * Tagging interface now shows the actual tag for the user even if it isn't one of the default quick tags
 * Admin devices page shows the software version (heart beat) info if the camera has sent this information to the server.   
@@ -25,15 +31,11 @@ use master tag in visits calculation
 * Vehicle tag now available in the additional tags menu. 
 
 ## Tuesday 8th December
-#### API server (v 5.10.2)
+### API server (v 5.10.2)
 -Added ability to get latest events.
-### Thermal Processing (v2.6.0)
-- Added a config item that specifies how long to wait when the last poll showed there is nothing to process.
-- Added config to give model tag precedences, so we can have one "master" tag for each track
-- Added thermal entry to processing_TEMPLATE and updated processing.config accordingly
 
 ## Wednesday 2nd December
-#### API server (v 5.10.1)
+### API server (v 5.10.1)
 Added ability to select events by type
 
 ## Friday 27th November
