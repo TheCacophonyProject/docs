@@ -10,7 +10,7 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Thursday 17th December
-### API server (v 5.11.0)
+### API server (v 5.11.1)
 Added some super user operations: - Get users list - Authenticate as another user
 Add alerts 
 Fix Visit Grouping Incorrectly 
