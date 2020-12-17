@@ -10,13 +10,20 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Thursday 17th December
+### Browse (v2.28.0)
+- Visits page now links with device id, so prev/next buttons work
+- Super users can now impersonate other users
+- Added not identifiable badge for recordings
+
 ### API server (v 5.11.1)
-Added some super user operations: - Get users list - Authenticate as another user
-Add alerts 
-Fix Visit Grouping Incorrectly 
-use master tag in visits calculation 
+
+- Added some super user operations: - Get users list - Authenticate as another user
+- Add alerts 
+- Fix Visit Grouping Incorrectly 
+- Use master tag in visits calculation 
 
 ### Thermal Processing (v2.7.1)
+
 - Added a config item that specifies how long to wait when the last poll showed there is nothing to process.
 - Added config to give model tag precedences, so we can have one "master" tag for each track
 - Added thermal entry to processing_TEMPLATE and updated processing.config accordingly
