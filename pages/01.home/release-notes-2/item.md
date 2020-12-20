@@ -9,6 +9,11 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Monday 21st December
+### Thermal Processing (v2.7.2)
+- Fix to master tag process, so it only adds 1 tag per track
+
+
 ## Thursday 17th December
 ### Browse (v2.28.0)
 - Visits page now links with device id, so prev/next buttons work
