@@ -14,6 +14,9 @@ article.
 - Fix to master tag process, so it only adds 1 tag per track
 
 
+### Browse (v2.28.1)
+- Fix to view as bar for admins
+
 ## Thursday 17th December
 ### Browse (v2.28.0)
 - Visits page now links with device id, so prev/next buttons work
