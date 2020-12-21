@@ -18,7 +18,7 @@ article.
 - Fix to master tag process, so it only adds 1 tag per track
 
 
-### Browse (v2.28.1)
+### Browse (v2.28.2)
 - Fix to view as bar for admins
 
 ## Thursday 17th December

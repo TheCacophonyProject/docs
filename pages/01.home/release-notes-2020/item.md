@@ -25,7 +25,7 @@ article.
 - Added thermal entry to processing_TEMPLATE and updated processing.config accordingly
 
 
-### Browse (v2.28.1)
+### Browse (v2.28.2)
 - Visits page now links with device id, so prev/next buttons work
 - Super users can now impersonate other users
 - Added not identifiable badge for recordings
