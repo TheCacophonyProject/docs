@@ -9,6 +9,11 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Monday 18th January
+### Predator Classifier (v2.8.1)
+- Fix issues causing it not to classify some clips
+
+
 ## Monday 21st December
 ### Predator Classifier (v2.8.0)
 - Update tracking algorithm
