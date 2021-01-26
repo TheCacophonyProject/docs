@@ -14,10 +14,11 @@ article.
 - Use background frame when doing tracking
 
 
-### Browse (v2.29.0)
+### Browse (v2.29.1)
 - Visits page update to show actual tag under visit events
+- Fix js bugs
 
-### API server (v 5.12.0)
+### API server (v 5.12.1)
 - Update visits page to use one tag per recording
 
 ## Monday 18th January
