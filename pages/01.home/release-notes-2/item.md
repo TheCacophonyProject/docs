@@ -9,6 +9,17 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Wednesday 27th January
+### Predator Classifier (v2.9.0)
+- Use background frame when doing tracking
+
+
+### Browse (v2.29.0)
+- Visits page update to show actual tag under visit events
+
+### API server (v 5.12.0)
+- Update visits page to use one tag per recording
+
 ## Monday 18th January
 ### Predator Classifier (v2.8.1)
 - Fix issues causing it not to classify some clips
