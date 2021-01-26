@@ -11,6 +11,16 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+## Wednesday 27th January
+
+### Browse (v2.29.1)
+- Visits page update to show actual tag under visit events
+- Fix js bugs
+
+### API server (v 5.12.1)
+- Update visits page to use one tag per recording
+
+
 ## Monday 21st December
 ### API server (v 5.11.1)
 - Added some super user operations: - Get users list - Authenticate as another user
