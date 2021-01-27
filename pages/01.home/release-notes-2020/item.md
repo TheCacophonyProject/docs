@@ -12,6 +12,9 @@ article.
 
 # Software releases
 ## Wednesday 27th January
+### Predator Classifier (v2.9.0)
+- Use background frame when doing tracking
+
 
 ### Browse (v2.29.1)
 - Visits page update to show actual tag under visit events
