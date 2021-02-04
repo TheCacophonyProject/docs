@@ -12,7 +12,7 @@ article.
 
 # Software releases
 ## Wednesday 27th January
-### Predator Classifier (v2.9.0)
+### Predator Classifier (v2.9.1)
 - Use background frame when doing tracking
 
 
