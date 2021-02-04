@@ -15,7 +15,7 @@ article.
 - Switch nodemailer to emailjs to get emails working
 
 ## Wednesday 27th January
-### Predator Classifier (v2.9.0)
+### Predator Classifier (v2.9.1)
 - Use background frame when doing tracking
 
 
