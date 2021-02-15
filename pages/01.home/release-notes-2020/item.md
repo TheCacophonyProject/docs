@@ -11,6 +11,13 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+## Monday 15th Febraury
+
+### Predator Classifier (v2.10.0)
+- Fixed lepton3.5 tracking problems
+- Added calibrating to video if ffc event has occured
+- Stop tracking when ffc events occur
+
 ## Wednesday 27th January
 ### Predator Classifier (v2.9.1)
 - Use background frame when doing tracking
