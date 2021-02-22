@@ -9,6 +9,14 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Monday 22nd Febraury
+
+### API server (v 5.13.0)
+- Added Stations
+- Updated visits algorithm
+
+### Browse (v2.30.0)
+- Visits page update to work with new format
 
 ## Monday 15th Febraury
 
