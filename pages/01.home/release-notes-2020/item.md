@@ -11,7 +11,16 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
-## Monday 15th Febraury
+## Monday 22nd Febraury
+
+### API server (v 5.14.1)
+- Added Stations
+- Updated visits algorithm
+
+### Browse (v2.30.0)
+- Visits page updated to work with new format
+- Added Stations
+
 
 ### Predator Classifier (v2.10.0)
 - Fixed lepton3.5 tracking problems
