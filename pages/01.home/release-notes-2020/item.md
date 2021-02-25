@@ -16,7 +16,8 @@ article.
 ### API server (v 5.14.1)
 - Added Stations
 - Updated visits algorithm
-
+- Fixed alert emailing
+- 
 ### Browse (v2.30.0)
 - Visits page updated to work with new format
 - Added Stations
