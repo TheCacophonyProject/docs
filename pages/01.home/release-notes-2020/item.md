@@ -13,7 +13,7 @@ article.
 # Software releases
 ## Monday 22nd Febraury
 
-### API server (v 5.14.1)
+### API server (v 5.14.2)
 - Added Stations
 - Updated visits algorithm
 - Fixed alert emailing

@@ -11,7 +11,7 @@ software updates each week. The latest updates are at the top of the
 article.
 ## Monday 22nd Febraury
 
-### API server (v 5.14.1)
+### API server (v 5.14.2)
 - Added Stations
 - Updated visits algorithm
 
