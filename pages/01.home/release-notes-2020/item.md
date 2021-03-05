@@ -11,6 +11,17 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+## Friday 05th March
+### Thermal Camera 
+
+- Write background into cptv file
+- Remove edge pixels in background frame for motion detection
+- Fix motion being detected after a zero pixel restart
+- Management interface can now read salt nodegroup
+- Added system power on and off events
+- Added salt-updater cron job
+
+
 ## Monday 22nd Febraury
 
 ### API server (v 5.14.2)
