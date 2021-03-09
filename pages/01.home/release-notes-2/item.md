@@ -9,8 +9,13 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
-## Monday 22nd Febraury
+## Tuesday 9th March
+### Predator Classifier (v2.11.0)
+- Updated cptv to faster version
+- Fixed bug where some clips werent processing due to negative regions
 
+
+## Monday 22nd Febraury
 ### API server (v 5.14.2)
 - Added Stations
 - Updated visits algorithm
