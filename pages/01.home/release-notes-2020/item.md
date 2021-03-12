@@ -15,7 +15,7 @@ article.
 ## Friday 12th March
 ### Predator Classifier (v2.11.0)
 - Updated cptv to faster version
-- Fixed bug where some clips werent processing due to negative regions
+- Fixed bug where some clips were not processing due to negative regions
 
 
 ## Friday 05th March
