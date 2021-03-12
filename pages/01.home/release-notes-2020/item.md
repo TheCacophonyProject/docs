@@ -11,6 +11,13 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+
+## Friday 12th March
+### Predator Classifier (v2.11.0)
+- Updated cptv to faster version
+- Fixed bug where some clips werent processing due to negative regions
+
+
 ## Friday 05th March
 ### Thermal Camera 
 
