@@ -11,6 +11,10 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+## Wednesday 17th March
+### Predator Classifier (v2.11.1)
+- Fixed bug where some clips werent processing due to bad frames
+
 
 ## Friday 12th March
 ### Predator Classifier (v2.11.0)

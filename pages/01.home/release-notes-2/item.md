@@ -9,6 +9,10 @@ taxonomy:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Wednesday 17th March
+### Predator Classifier (v2.11.1)
+- Fixed bug where some clips werent processing due to bad frames
+
 ## Tuesday 9th March
 ### Predator Classifier (v2.11.0)
 - Updated cptv to faster version
