@@ -32,7 +32,7 @@ eg to check you can ping the camera test-324.
 | **cmd.run**  {command} | Use this to run any command.|
 | **cmd.run**  'ls /var/spool/cptv/failed-uploads' | See if there are recordings that failed to upload |
 | **cmd.run** 'dpkg -l thermal*' | See what version of themal-recorder and thermal-uploader are running on the device |
-| **state.update** | Update this camera with the latest software for it|
+| **state.apply** | Update this camera with the latest software for it|
 | **service.restart** thermal-recorder | Restart the thermal-recorder service.  Likewise service.stop, service.restart and service.status all work in a similar way|
 | **systemd.enable** modemd | Have the modemd automatically start at boot.   Likewise systemd.disable does the opposite|
 
