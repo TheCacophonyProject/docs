@@ -10,14 +10,14 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Wednesday 24th March
-### Browse
+### Browse (v2.31.0)
 - Show device events list
 - Display our single AI master tag everywhere in the UI
 - Restore ability to tag multiple animals in a video
 - Added ability for super-admin users to view just their own groups and devices
 - Ignore inactive devices
 
-### API Server
+### API Server (v5.15.0)
 - Super-users can opt into viewing only their own groups and devices
 - Alerts for stopped devices
 
