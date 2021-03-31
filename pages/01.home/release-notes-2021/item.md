@@ -1,9 +1,8 @@
 ---
 title: 'Releases Notes for 2021'
 published: true
-taxonomy:
 category:
-- 'Project Updates'
+    - 'Project Updates'
 ---
 
 This article documents the major changes for the Cacophony Project's
@@ -11,6 +10,10 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+
+## Wednesday 31st March
+### Thermal Processing (v2.8.0)
+- Fix multiple animals not being tagged automatically
 
 ## Wednesday 17th March
 ### Predator Classifier (v2.11.1)

@@ -1,15 +1,18 @@
 ---
 title: 'Releases to Test Notes for 2021'
 published: true
-taxonomy:
 category:
-- 'Project Updates'
+    - 'Project Updates'
 ---
 
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Wednesday 24th March
+### Thermal Processing (v2.8.0)
+- Fix multiple animals not being tagged automatically
+
+
 ### Browse (v2.31.0)
 - Show device events list
 - Display our single AI master tag everywhere in the UI
