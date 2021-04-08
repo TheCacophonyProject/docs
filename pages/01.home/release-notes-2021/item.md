@@ -11,6 +11,11 @@ article.
 
 # Software releases
 
+## Wednesday 08th April
+### Predator Classifier (v2.12.0)
+- Support for newer models
+- Updated wallaby model, and add inception model for all labels
+
 ## Wednesday 31st March
 ### Thermal Processing (v2.8.0)
 - Fix multiple animals not being tagged automatically

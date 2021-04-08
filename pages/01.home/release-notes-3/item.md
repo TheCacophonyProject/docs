@@ -8,6 +8,12 @@ category:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+
+## Wednesday 08th April
+### Predator Classifier (v2.12.0)
+- Support for newer models
+
+
 ## Wednesday 24th March
 ### Thermal Processing (v2.8.0)
 - Fix multiple animals not being tagged automatically
