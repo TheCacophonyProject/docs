@@ -9,6 +9,16 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 
+## Tuesday 13th April
+### Browse (v2.33.0)
+- Update insecure npm dependencies
+- Fix broken device page
+
+### API (v5.17.0)
+- Improve visits query speed (especially for audio baits)
+- Device-in-group request added
+- Fixed api-doc
+
 ## Wednesday 08th April
 ### Predator Classifier (v2.12.0)
 - Support for newer models
