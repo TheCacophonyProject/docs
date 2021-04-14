@@ -9,6 +9,10 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 
+## Wednesday 14th April
+### Browse (v2.33.1)
+-Added "Missed recording" label
+
 ## Tuesday 13th April
 ### Browse (v2.33.0)
 - Update insecure npm dependencies
