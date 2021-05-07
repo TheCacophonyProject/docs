@@ -8,6 +8,14 @@ category:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Friday 7th May
+### Predator Classifier (v2.13.1)
+- Support to run multiple models at once
+- Support for toggling video disk caching via command line
+
+
+### Thermal Processing (v2.8.2)
+- Classify videos with disk caching only if longer than 4 minutes (Should speed up processing times)
 
 ## Wednesday 14th April
 ### Browse (v2.33.1)
