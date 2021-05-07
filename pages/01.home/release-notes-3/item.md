@@ -9,9 +9,14 @@ This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
 ## Friday 7th May
-### Predator Classifier (v2.13.1)
+### Predator Classifier (v2.13.2)
 - Support to run multiple models at once
 - Support for toggling video disk caching via command line
+
+### API (v5.20.0)
+- Fix recordings csv
+- Only alert on master tags
+- Alerts will link to a specific track id
 
 
 ### Thermal Processing (v2.8.2)
