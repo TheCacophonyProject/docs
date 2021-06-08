@@ -10,6 +10,11 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+## Tuesday 1st June
+### Predator Classifier (v2.14.3)
+- Support to run multiple models at once
+- Support for toggling video disk caching via command line
+
 
 ## Thursday 15th April
 ### Browse (v2.33.1)
