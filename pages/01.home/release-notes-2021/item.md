@@ -10,6 +10,15 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+
+## Monday 5th July
+### Predator Classifier (v2.16.6)
+- Inception v3 model
+
+### Thermal Processing (v2.9.1)
+- Allow all models to tag wallaby devices
+- Fix bug with failed videos constantly retrying
+
 ## Tuesday 1st June
 ### Predator Classifier (v2.14.3)
 - Support to run multiple models at once
