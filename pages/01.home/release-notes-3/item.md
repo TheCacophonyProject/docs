@@ -8,6 +8,11 @@ category:
 This article documents the major changes for the Cacophony Project's
 software updates each week. The latest updates are at the top of the
 article.
+## Friday 9th July
+### Thermal Processing (v2.9.2)
+- Hot fix for processing bad recording over and over again
+
+
 ## Friday 7th May
 ### Predator Classifier (v2.13.2)
 - Support to run multiple models at once

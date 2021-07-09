@@ -10,6 +10,9 @@ software updates each week. The latest updates are at the top of the
 article.
 
 # Software releases
+## Friday 9th July
+### Thermal Processing (v2.9.2)
+- Hot fix for processing bad recording over and over again
 
 ## Monday 5th July
 ### Predator Classifier (v2.16.6)
